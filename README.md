@@ -73,8 +73,7 @@
 
 ## 📢 채널 및 문의
 
-* **공식 블로그:** [Life Money Hub](https://lifemoneyhub.com)
-* **네이버 카페:** [스마트 라이프], [늦깎이 경제 교실]
+* **이메일:** mdloopy02@gmail.com
 
 ---
 
