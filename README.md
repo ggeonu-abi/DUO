@@ -1,3 +1,6 @@
+[🇰🇷 한국어 (Korean)](#korean) | [🇺🇸 English](#english)
+
+<a name="korean"></a>
 # 🛡️ 디아블로 2: 레저렉션 공역 & 우버디아 트래커 (D2R Tracker)
 
 디아블로 2: 레저렉션 플레이 중 **다음 공역(Terror Zone)** 정보와 **우버디아(Diablo Clone)** 의 각 서버별 진행 상황을 게임 화면 위에 실시간으로 표시해 주는 투명 오버레이 프로그램입니다.
@@ -83,6 +86,101 @@ GitHub 사용이 익숙하지 않으신 분들은 아래의 순서대로 진행�
 ## 📢 채널 및 문의
 
 * **이메일:** mdloopy02@gmail.com
+
+---
+
+<br><br><br>
+
+---
+
+<a name="english"></a>
+# 🛡️ Diablo 2: Resurrected Terror Zone & Diablo Clone Tracker (D2R Tracker)
+
+[⬆️ Back to Top / 한국어](#korean)
+
+This is a transparent overlay program that displays the upcoming **Terror Zone** information and real-time **Diablo Clone** progression across servers directly on your game screen while playing Diablo 2: Resurrected.
+
+---
+
+## ☕ Support (Donation)
+If you found this program helpful, please consider buying the developer a coffee! 
+
+* [👉 Buy me a coffee via KakaoPay (Click link on mobile)](https://qr.kakaopay.com/FTeinPf5n9c405794)
+> If you are on a PC, please scan the QR code below using your smartphone's camera!
+
+<img src="kakaopay.JPG" width="250" alt="KakaoPay QR Code">
+
+---
+
+## 📸 Screenshots
+
+### 1. Next Terror Zone & Progress Bar
+![Terror Zone Screen](right-top.png)
+> Displays the next Terror Zone and the remaining time until the next update as a percentage (%) bar at the top right of your screen.
+
+### 2. Diablo Clone Progression
+![Diablo Clone Screen](right-bottom.png)
+> Displays the current Diablo Clone progression for Asia, Europe, and Americas servers in a 6-stage block format (`■■■□□□`) at the bottom right.
+
+---
+
+## ✨ Key Features
+
+* **Real-time TZ Alerts:** Displays the next Terror Zone (updated every hour/half-hour). (Includes ACT info)
+* **DClone Progress Bar:** Visually tracks the Diablo Clone progression across 3 regions.
+* **Smart Timer:** Safely synchronizes data in the background every 1 minute (60 seconds) for accurate and fast updates without overloading the server.
+* **Perfect Game Integration:** Operates in a transparent window mode. Mouse clicks pass right through the overlay, causing zero interference with your gameplay.
+* **Save Personal Settings:** Settings like Ladder/NL, HC/SC, and your personal API token are automatically saved in `d2_overlay_config.json`.
+
+---
+
+## 🚀 Getting Started
+
+### 1. Download the Program (Beginner's Guide)
+If you are not familiar with GitHub, please follow these steps:
+1. Click on the latest version in the **Releases** section on the right side of the screen.
+2. Under **Assets**, click the **`.zip` file** to download it.
+3. Extract the downloaded zip file on your PC.
+
+### 2. Get a Personal API Key (Token)
+This program requires a personal API Key to provide fast and stable real-time data.
+1. Go to the [d2tz.info Sign Up/Login](https://www.d2tz.info/user-profile) page.
+2. After signing up and logging in, copy your **API Key (Token)** from the **User Profile** page.
+
+### 3. How to Run and Configure
+1. Ensure that the extracted folder contains both the `d2_tz.exe` and the **`area.json`** files. (`area.json` is essential for translating Terror Zone names.)
+2. Run **Diablo 2: Resurrected**. (Windowed or Windowed Fullscreen mode is recommended)
+3. Run `d2_tz.exe`.
+4. When the "Token Required" message appears, **right-click** the red icon in your Windows system tray (bottom right taskbar).
+5. Click **`🔑 Set API Token (d2tz.info)`** at the top of the menu, paste the copied API Key, and click OK.
+6. The UI will instantly update to show the current data.
+
+### 4. Hotkeys & Menu Settings
+* **Exit Program:** `Ctrl` + `Shift` + `Q`
+* **Settings:** **Right-click** the red icon in the system tray to change language, modes (Ladder/NL, HC/SC), or toggle UI elements ON/OFF.
+
+---
+
+## 🛡️ Security & False Positives
+
+This program is built using Python and uses the `keyboard` library to detect hotkeys. Because of this, some antivirus programs (like Windows Defender) may flag it as a **False Positive** and block or delete the file.
+
+* **Solution:** If the program is blocked, please add the folder containing the executable to your antivirus **exclusion list** and try running it again.
+* This is an open-source, safe tool, and it does not collect any personal information.
+
+---
+
+## ⚠️ Disclaimer
+
+* This program is not affiliated with Blizzard Entertainment and is a **pure overlay tool** that does not modify or manipulate game data in any way.
+* The user assumes all responsibility for using this program, and the creator is not liable for any consequences.
+* Information display may be delayed or inaccurate depending on the server status of the data provider (d2tz.info).
+
+---
+
+## 📢 Contact
+
+* **Email:** mdloopy02@gmail.com
 
 ---
 
