@@ -157,7 +157,7 @@ However, if you found this tool helpful for your gameplay and wish to support it
 > Displays the current Diablo Clone progression for Asia, Europe, and Americas servers in a 6-stage block format (`■■■□□□`) at the bottom right.
 
 ### 3. Buff Overlay
-![Buff Overlay Screen](image_4b7745.jpg)
+![Buff Overlay Screen](buff-overlay.png)
 > Displays custom skill icons and durations as an overlay, allowing you to intuitively track your buff statuses.
 
 ---
