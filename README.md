@@ -12,6 +12,7 @@
 ## ☕ 후원하기 (Support)
 **본 프로그램은 누구나 무료로 자유롭게 사용할 수 있습니다!** 만약 이 프로그램이 게임 플레이에 큰 도움이 되셨다면, 개발자가 더 좋은 기능과 업데이트를 지속할 수 있도록 원하시는 경우에 한하여 커피 한 잔의 여유를 선물해 주세요. 응원은 언제나 큰 힘이 됩니다!
 
+* [👉 페이팔로 커피 한 잔 후원하기 (한국 이외 거주자)](https://paypal.me/haruyozzang/4)
 * [👉 카카오페이로 커피 한 잔 후원하기 (모바일 환경에서 링크 클릭)](https://qr.kakaopay.com/FTeinPf5n9c405794)
 > PC 환경이신 경우, 아래의 QR 코드를 스마트폰 기본 카메라나 카카오톡 스캔 기능으로 찍어주세요!
 
@@ -154,6 +155,7 @@ A **multi-purpose transparent overlay program** designed to comprehensively enha
 **This program is 100% free to use for everyone!**
 However, if you found this tool helpful for your gameplay and wish to support its ongoing development and updates, you can optionally buy the developer a coffee. Your support is always greatly appreciated!
 
+* [👉 Buy me a coffee via PayPal (For non-Korean users)](https://paypal.me/haruyozzang/4)
 * [👉 Buy me a coffee via KakaoPay (Click link on mobile)](https://qr.kakaopay.com/FTeinPf5n9c405794)
 > If you are on a PC, please scan the QR code below using your smartphone's camera!
 
