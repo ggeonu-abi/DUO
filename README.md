@@ -69,7 +69,7 @@
 | | 사용자가 설정한 키 | 지정한 버프 타이머 실행 |
 | **스피드런** | `Home` | 타이머 시작 / 일시정지 |
 | | `End` | 런 기록 완료 및 통계 저장 |
-| | `Shift` + `Delete` | 타이머 초기화 (두 번 누르면 누적 통계 리셋) |
+| | `Shift` + `Delete` | 스피드런 타이머 및 누적 통계 초기화 |
 
 ---
 
@@ -222,7 +222,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 | | User Defined Keys | Trigger Specific Buff Timer |
 | **Speedrun** | `Home` | Timer Start / Pause |
 | | `End` | Record Run Time & Save Stats |
-| | `Shift` + `Delete` | Reset Timer (Press twice to reset session stats) |
+| | `Shift` + `Delete` | Reset speedrun timer and all session stats |
 
 ---
 
