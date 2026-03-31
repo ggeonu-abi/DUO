@@ -24,13 +24,13 @@
 ## <a id="screenshots-kr"></a>📸 스크린샷 (Screenshots)
 
 ### 1. 테러존 & 우버디아 오버레이
-![다음 공역과 진행률 표시 화면](right-top_kor.png)
-![우버디아 진행율 서버별 표시](right-bottom_kor.png)
+![다음 공역과 진행률 표시 화면](images/right-top_kor.png)
+![우버디아 진행율 서버별 표시](images/right-bottom_kor.png)
 > 화면 상단에 다음 공역 정보 및 남은 시간을, 우측 하단에 대륙별 우버디아 진행도를 직관적인 블록(`■■■□□□`)으로 표시합니다.
 
 ### 2. 사용자 맞춤형 버프 오버레이 & 스피드런 타이머
-![버프 오버레이 표시 화면](buff-overlay.gif)
-![스피드런 타이머 표시 화면](timer_kor.gif)
+![버프 오버레이 표시 화면](images/buff-overlay.gif)
+![스피드런 타이머 표시 화면](images/timer_kor.gif)
 > 내가 원하는 스킬 아이콘을 캡처하여 버프 지속 시간을 확인하고, 보스 파밍이나 런 반복 시 소요 시간을 측정해 이전 기록과 비교할 수 있습니다.
 
 ---
@@ -45,7 +45,7 @@
 > * **자동 업데이트 (권장):** 프로그램 실행 시 최신 버전 알림이 뜨면 하단의 **`⚡ 자동 업데이트`** 버튼을 클릭하세요. 기존 설정(UI 위치, 폰트, 즐겨찾기, 프로필 등)이 모두 유지된 채 안전하게 자동 설치 및 재실행됩니다.
 > * **수동 업데이트:** 깃허브에서 새 버전을 직접 다운로드할 경우, 기존에 쓰던 폴더에서 `d2_overlay_config.json`, `favorite_tz.json`, `profiles` 폴더를 복사하여 새 버전 폴더에 덮어쓰기 하시면 됩니다.
 
-![자동 업데이트 버튼 표시 화면](auto-update_kor.png)
+![자동 업데이트 버튼 표시 화면](images/auto-update_kor.png)
 > 💡 새 버전이 감지되면 테러존 패널 하단에 **`⚡ 자동 업데이트`** 버튼이 나타납니다.
 
 ### 2. 실행 및 설정
@@ -147,7 +147,7 @@
 
 > PC 환경이신 경우, 아래의 QR 코드를 스마트폰 기본 카메라나 카카오톡 스캔 기능으로 찍어주세요!
 
-<img src="kakaopay.JPG" width="250" alt="카카오페이 후원 QR 코드">
+<img src="images/kakaopay.JPG" width="250" alt="카카오페이 후원 QR 코드">
 
 ---
 
@@ -181,12 +181,12 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 ## <a id="screenshots-en"></a>📸 Screenshots
 
 ### 1. Next Terror Zone & DClone Progress
-![Terror Zone Screen](right-top_eng.png)
-![Diablo Clone Screen](right-bottom_eng.png)
+![Terror Zone Screen](images/right-top_eng.png)
+![Diablo Clone Screen](images/right-bottom_eng.png)
 
 ### 2. Buff Overlay & Speedrun Timer
-![Buff Overlay Screen](buff-overlay.png)
-![Speedrun Timer Screen](timer_eng.png)
+![Buff Overlay Screen](images/buff-overlay.png)
+![Speedrun Timer Screen](images/timer_eng.png)
 
 ---
 
@@ -200,7 +200,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 > * **Auto-Update (Recommended):** Simply click the **`⚡ Auto-Update`** button on the overlay when a new version is detected. It will safely download and install the update while preserving all your custom settings, profiles, and favorites.
 > * **Manual Update:** If you download the `.zip` file manually, copy and paste your old `d2_overlay_config.json`, `favorite_tz.json`, and `profiles` folder into the new version's folder.
 
-![Auto-Update button display screen](auto-update_eng.png)
+![Auto-Update button display screen](images/auto-update_eng.png)
 > 💡 When a new version is detected, the **`⚡ Auto-Update`** button appears at the bottom of the Terror Zone panel.
 
 ### 2. Run & Configure
@@ -301,7 +301,7 @@ However, if you found this tool helpful for your gameplay and wish to support it
 
 > If you are on a PC, please scan the QR code below using your smartphone's camera!
 
-<img src="kakaopay.JPG" width="250" alt="KakaoPay QR Code">
+<img src="images/kakaopay.JPG" width="250" alt="KakaoPay QR Code">
 
 ---
 
