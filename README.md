@@ -114,7 +114,7 @@
 * **OS:** Windows 11 Pro 25H2 (64-bit)
 * **Display:** 2560x1440 (QHD)
 * **Game:** 디아블로 2: 레저렉션 (주로 전체화면 모드에서 테스트하며 창모드도 병행. 권장: 전체화면 모드)
-* **Build:** Python 3.14
+* **Build:** Python 3.12
 
 **🛡️ 백신 오탐지 안내**
 키보드 단축키 감지(`keyboard`) 기능을 사용하여 일부 백신(Windows Defender 등)에서 **오탐지(False Positive)** 할 수 있습니다. 
@@ -185,7 +185,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 ![Diablo Clone Screen](images/right-bottom_eng.png)
 
 ### 2. Buff Overlay & Speedrun Timer
-![Buff Overlay Screen](images/buff-overlay.png)
+![Buff Overlay Screen](images/buff-overlay.gif)
 ![Speedrun Timer Screen](images/timer_eng.png)
 
 ---
@@ -266,7 +266,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 * **OS:** Windows 11 Pro 25H2 (64-bit)
 * **Display:** 2560x1440 (QHD)
 * **Game:** Diablo 2: Resurrected (Recommended: Fullscreen Mode)
-* **Build:** Python 3.14
+* **Build:** Python 3.12
 
 **🛡️ Security & False Positives**
 This program uses the `keyboard` module to detect hotkeys. Some antivirus software (e.g., Windows Defender) may flag it as a **False Positive**.
