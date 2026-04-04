@@ -3,7 +3,7 @@
 <a name="korean"></a>
 # 🛡️ 디아블로 2: 레저렉션 다기능 유틸리티 오버레이 (D2R Utility Overlay - DUO)
 
-디아블로 2: 레저렉션 플레이를 더욱 쾌적하게 만들어주는 **다기능 유틸리티 오버레이(DUO)** 프로그램입니다. 기존의 **다음 공역(Terror Zone)** 및 **우버디아(Diablo Clone)** 실시간 추적 기능은 물론, 사용자 맞춤형 **버프 스킬 타이머** 및 **스피드런 타이머** 등 게임에 유용한 다양한 편의 기능들을 화면 위에 실시간으로 제공합니다.
+디아블로 2: 레저렉션 플레이를 더욱 쾌적하게 만들어주는 **다기능 유틸리티 오버레이(DUO)** 프로그램입니다. 기존의 **다음 공역(Terror Zone)** 및 **우버디아(Diablo Clone)** 실시간 추적 기능은 물론, 사용자 맞춤형 **버프 스킬 타이머**, **스피드런 타이머**, 그리고 **실시간 아이템 사전 검색** 등 게임에 유용한 다양한 편의 기능들을 화면 위에 실시간으로 제공합니다.
 
 > **📢 알림:** 기능이 많아지면서 하나하나 테스트하는 데 시간이 많이 소요되고 있습니다. (예: 테러존 API 갱신 테스트 시 최소 30분 대기 등) 따라서 일부 버그나 미흡한 점이 있더라도 너그럽게 양해 부탁드립니다. 저 또한 게임 플레이 시 이 프로그램을 항상 사용하고 있으므로, 오류를 발견하는 대로 최대한 빠르게 수정하여 업데이트하겠습니다!
 
@@ -32,6 +32,10 @@
 ![버프 오버레이 표시 화면](images/buff-overlay.gif)
 ![스피드런 타이머 표시 화면](images/timer_kor.gif)
 > 내가 원하는 스킬 아이콘을 캡처하여 버프 지속 시간을 확인하고, 보스 파밍이나 런 반복 시 소요 시간을 측정해 이전 기록과 비교할 수 있습니다.
+
+### 3. 실시간 아이템 사전 검색
+![아이템 사전 검색 화면](images/item-search_kor.png)
+> 게임 내에서 바로 유니크/룬워드 아이템의 옵션, 재료, 별칭 등을 검색하고 트레더리(Traderie) 시세까지 즉시 확인할 수 있습니다.
 
 ---
 
@@ -64,6 +68,10 @@
 | :--- | :---: | :--- |
 | **공통 설정** | `Ctrl` + `Shift` + `S` | 환경설정 창 즉시 열기 (게임 중) |
 | | `Ctrl` + `Shift` + `Q` | 프로그램 완전 종료 |
+| **아이템 검색** | `Ctrl` + `F` | 아이템 사전 검색창 열기 |
+| | `Tab` | (검색창 내) 유니크 / 룬워드 탭 전환 |
+| | `↑` / `↓` | (검색창 내) 검색 결과 상하 이동 |
+| | `ESC` | 검색창 닫기 |
 | **버프 타이머** | `PageUp` / `PageDown` | 버프 스킬 프로필 전환 |
 | | `Ctrl` + `Shift` + `A` | 버프 스킬 화면 캡처 및 즉시 등록 |
 | | 사용자가 설정한 키 | 지정한 버프 타이머 실행 |
@@ -80,14 +88,20 @@
 * **우버디아 맞춤 알림:** 확장팩(LoD/RotW) 선택이 가능하며 단계 상승 시 소리 알림을 제공합니다.
 * **초절전 스마트 폴링:** 트래픽 낭비 방지를 위해 갱신이 필요한 시점에만 API를 정교하게 호출합니다.
 
-**2. 스피드런 타이머 & 통계**
+**2. 실시간 아이템 사전 검색**
+* **강력하고 유연한 검색 엔진:** 영문/한글 공식 명칭은 물론, 유저들이 자주 쓰는 **별칭**(예: '샤코', '오심')이나 룬워드에 들어가는 **조합 룬**(예: '자 룬', '베르')으로도 정확하게 검색됩니다.
+* **다중 키워드(띄어쓰기) 검색 지원:** 두 개 이상의 단어를 띄어쓰기로 입력하면(예: `엘리트 갑옷`, `자 베르`) 해당 조건이 모두 포함된 아이템만 빠르게 압축하여 찾아주는 강력한 편의성을 제공합니다.
+* **트레더리(Traderie) 연동:** 버튼 한 번으로 선택한 아이템의 트레더리 시세 페이지를 엽니다. (우클릭하여 선호하는 브라우저를 기본으로 고정 가능)
+* **편의성:** 검색된 세부 옵션을 바로 클립보드에 복사할 수 있으며, 검색창이 포커스를 잃으면 자동으로 반투명해져 게임 플레이를 방해하지 않습니다.
+
+**3. 스피드런 타이머 & 통계**
 * 보스 파밍 시 클리어 타임을 측정하며, 최근 두 번의 기록과 직관적인 시간 차이(단축 시 녹색, 지연 시 붉은색)를 제공합니다.
 
-**3. 강력한 버프 오버레이**
+**4. 강력한 버프 오버레이**
 * 스킬 아이콘 캡처 기능으로 나만의 버프 트래커를 구축할 수 있습니다. 
 * 기본 음원 외에 `sounds` 폴더에 원하는 파일(`.wav`, `.mp3`)을 넣어 스킬별로 개별 알림음을 지정할 수 있습니다.
 
-**4. 완벽한 게임 통합 & UI 편의성**
+**5. 완벽한 게임 통합 & UI 편의성**
 * **클릭 관통 (Click-through):** 오버레이가 마우스 클릭을 방해하지 않습니다.
 * **자동 숨김 & 창 모드 지원:** 게임 창이 활성화되었을 때만 표출되며, 멀티 로더 환경도 완벽하게 지원합니다.
 * **자유로운 레이아웃:** 드래그 앤 드롭으로 패널 위치를 조정할 수 있고 세로 배치 모드도 지원합니다.
@@ -124,6 +138,7 @@
 ---
 
 ## <a id="updates-kr"></a>🔧 최근 업데이트 내역
+* **[추가]** 단축키(`Ctrl+F`)로 즉시 호출 가능한 실시간 아이템 사전(유니크/룬워드) 검색 및 트레더리 시세 연동 기능 추가
 * **[추가]** 스피드런 타이머(스톱워치) 및 이전 런(기록 1, 2) 비교 패널 기능 추가
 * **[제거]** 하드코딩된 테러존 번역을 `area.json` 의존성으로 일원화하여 경량화
 * **[수정]** 숫자 폰트 크기 차이로 인한 테러존 패널 흔들림 현상 개선
@@ -160,7 +175,7 @@
 
 [⬆️ Back to Top / 한국어](#korean)
 
-A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance your Diablo 2: Resurrected gameplay. In addition to real-time tracking for the upcoming **Terror Zone** and **Diablo Clone** progression across servers, it provides various quality-of-life utilities, such as a highly customizable **Buff Skill Timer** and a new **Speedrun Timer**, directly on your game screen.
+A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance your Diablo 2: Resurrected gameplay. In addition to real-time tracking for the upcoming **Terror Zone** and **Diablo Clone** progression across servers, it provides various quality-of-life utilities, such as a highly customizable **Buff Skill Timer**, a **Speedrun Timer**, and an **In-game Item Search Dictionary**, directly on your game screen.
 
 > **📢 Notice:** As the number of features continues to grow, testing each one takes a considerable amount of time. Therefore, please be understanding if you encounter any minor bugs. Since I also actively use this program for my own gameplay, I will make sure to fix any discovered errors as quickly as possible!
 
@@ -187,6 +202,10 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 ### 2. Buff Overlay & Speedrun Timer
 ![Buff Overlay Screen](images/buff-overlay.gif)
 ![Speedrun Timer Screen](images/timer_eng.png)
+
+### 3. Real-time Item Search Dictionary
+![Item Search Screen](images/item-search_eng.png)
+> Instantly search for Unique/Runeword items, base materials, aliases, and check their market value on Traderie without tabbing out of the game.
 
 ---
 
@@ -217,6 +236,10 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 | :--- | :---: | :--- |
 | **Global** | `Ctrl` + `Shift` + `S` | Open Settings Instantly |
 | | `Ctrl` + `Shift` + `Q` | Exit Program Completely |
+| **Item Search** | `Ctrl` + `F` | Open Item Search Window |
+| | `Tab` | (In Search) Toggle Unique / Runeword Tabs |
+| | `↑` / `↓` | (In Search) Navigate Search Results |
+| | `ESC` | Close Search Window |
 | **Buff Overlay** | `PageUp` / `PageDown` | Switch Buff Profiles |
 | | `Ctrl` + `Shift` + `A` | Capture & Add Skill Instantly |
 | | User Defined Keys | Trigger Specific Buff Timer |
@@ -233,14 +256,20 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 * **Uber Alerts:** Choose your expansion (LoD/RotW) and get notified when DClone stages increase.
 * **Smart Polling:** Highly optimized API calls to prevent traffic waste.
 
-**2. Speedrun Timer & Stats**
+**2. In-game Item Search Dictionary**
+* **Powerful & Flexible Search Engine:** Search quickly and accurately by English/Korean names, base items, well-known **aliases** (e.g., 'Shako', 'Enigma'), or even required **runes** (e.g., 'Jah', 'Ber'). 
+* **Multi-word Search Support:** Use spaces to combine multiple keywords (e.g., `Jah Ber`). The search engine will instantly filter and display items containing all the keywords, giving you the ultimate convenience.
+* **Traderie Integration:** Click the button to instantly open the item's market value page in your browser. (Right-click to set your preferred browser like Chrome or Edge as default).
+* **Ultimate Convenience:** Instantly copy item details to your clipboard. The search window automatically becomes semi-transparent when it loses focus so it won't block your game view.
+
+**3. Speedrun Timer & Stats**
 * Stopwatch panel to track run times with direct comparison to your last two records (green for faster, red for slower).
 
-**3. Powerful Buff Overlay**
+**4. Powerful Buff Overlay**
 * Build your own buff tracker using the built-in screen capture tool.
 * Assign custom audio files (`.wav`, `.mp3`) placed in the `sounds` folder to individual skills.
 
-**4. UI & Convenience**
+**5. UI & Convenience**
 * **Click-through:** Mouse clicks pass right through the overlay.
 * **Auto-Hide:** Automatically hides when switching to a browser or another app. Fully supports multi-client setups.
 * **Free Layout:** Drag and drop panels anywhere. Vertical modes are also supported.
@@ -276,6 +305,7 @@ This program uses the `keyboard` module to detect hotkeys. Some antivirus softwa
 ---
 
 ## <a id="updates-en"></a>🔧 Recent Updates
+* **[Added]** Real-time Item Search dictionary (Unique/Runeword) with Traderie integration via hotkey (`Ctrl+F`).
 * **[Added]** Speedrun Timer (Stopwatch) panel with previous record tracking.
 * **[Removed]** Hardcoded TZ translations; now reliant purely on `area.json` for a lighter build.
 * **[Fixed]** Addressed an issue where the Terror Zone panel would constantly move when number font sizes were different.
