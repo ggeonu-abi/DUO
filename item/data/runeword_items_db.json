@@ -52,17 +52,6 @@
         "desc_ko": "번개 저항"
       },
       {
-        "type": "res-all",
-        "param": "",
-        "min": "13",
-        "max": "13",
-        "original_idx": 2,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Fire Resist",
-        "desc_ko": "화염 저항"
-      },
-      {
         "type": "res-fire",
         "param": "",
         "min": "35",
@@ -71,6 +60,17 @@
         "param_ko": "",
         "desc_en": "Fire Resist",
         "desc_ko": "화염 저항"
+      },
+      {
+        "type": "res-all",
+        "param": "",
+        "min": "13",
+        "max": "13",
+        "original_idx": 2,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
       },
       {
         "type": "res-pois",
@@ -116,15 +116,6 @@
     ],
     "options": [
       {
-        "type": "hit-skill",
-        "param": "Miasma Chains",
-        "min": "10",
-        "max": "15",
-        "original_idx": 2,
-        "param_en": "Miasma Chains",
-        "param_ko": "Miasma Chains"
-      },
-      {
         "type": "gethit-skill",
         "param": "Psychic Ward",
         "min": "2",
@@ -132,6 +123,15 @@
         "original_idx": 1,
         "param_en": "Psychic Ward",
         "param_ko": "정신 결계"
+      },
+      {
+        "type": "hit-skill",
+        "param": "Miasma Chains",
+        "min": "10",
+        "max": "15",
+        "original_idx": 2,
+        "param_en": "Miasma Chains",
+        "param_ko": "Miasma Chains"
       },
       {
         "type": "war",
@@ -162,8 +162,8 @@
         "original_idx": 4,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "res-fire",
@@ -243,8 +243,8 @@
         "original_idx": 3,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "crush",
@@ -267,13 +267,14 @@
         "desc_ko": "상처 악화 확률"
       },
       {
-        "type": "oskill",
-        "param": "Shape Shifting",
-        "min": "3",
-        "max": "3",
-        "original_idx": 7,
-        "param_en": "Shape Shifting",
-        "param_ko": "변신"
+        "type": "noheal",
+        "param": "",
+        "min": "1",
+        "max": "1",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Prevent Monster Heal",
+        "desc_ko": "괴물 회복 저지"
       },
       {
         "type": "oskill",
@@ -285,14 +286,13 @@
         "param_ko": "Wearbear"
       },
       {
-        "type": "noheal",
-        "param": "",
-        "min": "1",
-        "max": "1",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Prevent Monster Heal",
-        "desc_ko": "괴물 회복 저지"
+        "type": "oskill",
+        "param": "Shape Shifting",
+        "min": "3",
+        "max": "3",
+        "original_idx": 7,
+        "param_en": "Shape Shifting",
+        "param_ko": "변신"
       },
       {
         "type": "str",
@@ -375,8 +375,8 @@
         "original_idx": 2,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "att",
@@ -473,15 +473,6 @@
     ],
     "options": [
       {
-        "type": "gethit-skill",
-        "param": "Bone Armor",
-        "min": "15",
-        "max": "10",
-        "original_idx": 2,
-        "param_en": "Bone Armor",
-        "param_ko": "뼈 갑옷"
-      },
-      {
         "type": "hit-skill",
         "param": "Bone Spear",
         "min": "15",
@@ -489,6 +480,15 @@
         "original_idx": 1,
         "param_en": "Bone Spear",
         "param_ko": "뼈 창"
+      },
+      {
+        "type": "gethit-skill",
+        "param": "Bone Armor",
+        "min": "15",
+        "max": "10",
+        "original_idx": 2,
+        "param_en": "Bone Armor",
+        "param_ko": "뼈 갑옷"
       },
       {
         "type": "nec",
@@ -519,8 +519,8 @@
         "max": "30",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Fire Resist",
-        "desc_ko": "화염 저항"
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
       },
       {
         "type": "red-dmg",
@@ -689,15 +689,6 @@
     "allowed_types": [],
     "options": [
       {
-        "type": "gethit-skill",
-        "param": "Amplify Damage",
-        "min": "35",
-        "max": "14",
-        "original_idx": 4,
-        "param_en": "Amplify Damage",
-        "param_ko": "피해 증폭"
-      },
-      {
         "type": "hit-skill",
         "param": "Bone Spear",
         "min": "100",
@@ -705,6 +696,15 @@
         "original_idx": 3,
         "param_en": "Bone Spear",
         "param_ko": "뼈 창"
+      },
+      {
+        "type": "gethit-skill",
+        "param": "Amplify Damage",
+        "min": "35",
+        "max": "14",
+        "original_idx": 4,
+        "param_en": "Amplify Damage",
+        "param_ko": "피해 증폭"
       },
       {
         "type": "explosivearrow",
@@ -735,8 +735,8 @@
         "original_idx": 1,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "att%",
@@ -857,8 +857,8 @@
         "original_idx": 6,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "reduce-ac",
@@ -941,8 +941,8 @@
         "original_idx": 7,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "to Strength",
-        "desc_ko": "힘"
+        "desc_en": "All Attributes",
+        "desc_ko": "모든 능력치"
       },
       {
         "type": "light",
@@ -1020,8 +1020,8 @@
         "original_idx": 2,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "dmg-fire",
@@ -1044,13 +1044,23 @@
         "desc_ko": "적중당 생명력 훔침"
       },
       {
-        "type": "oskill",
-        "param": "Battle Cry",
+        "type": "noheal",
+        "param": "",
         "min": "1",
-        "max": "4",
-        "original_idx": 6,
-        "param_en": "Battle Cry",
-        "param_ko": "전투의 함성"
+        "max": "1",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Prevent Monster Heal",
+        "desc_ko": "괴물 회복 저지"
+      },
+      {
+        "type": "oskill",
+        "param": "Battle Command",
+        "min": "2",
+        "max": "6",
+        "original_idx": 4,
+        "param_en": "Battle Command",
+        "param_ko": "전투 명령"
       },
       {
         "type": "oskill",
@@ -1063,22 +1073,12 @@
       },
       {
         "type": "oskill",
-        "param": "Battle Command",
-        "min": "2",
-        "max": "6",
-        "original_idx": 4,
-        "param_en": "Battle Command",
-        "param_ko": "전투 명령"
-      },
-      {
-        "type": "noheal",
-        "param": "",
+        "param": "Battle Cry",
         "min": "1",
-        "max": "1",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Prevent Monster Heal",
-        "desc_ko": "괴물 회복 저지"
+        "max": "4",
+        "original_idx": 6,
+        "param_en": "Battle Cry",
+        "param_ko": "전투의 함성"
       },
       {
         "type": "regen",
@@ -1209,8 +1209,8 @@
         "original_idx": 1,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Fire Resist",
-        "desc_ko": "화염 저항"
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
       },
       {
         "type": "red-dmg%",
@@ -1256,21 +1256,21 @@
     "options": [
       {
         "type": "hit-skill",
-        "param": "Charged Bolt",
-        "min": "11",
-        "max": "9",
-        "original_idx": 7,
-        "param_en": "Charged Bolt",
-        "param_ko": "번개 줄기"
-      },
-      {
-        "type": "hit-skill",
         "param": "Frozen Orb",
         "min": "9",
         "max": "11",
         "original_idx": 6,
         "param_en": "Frozen Orb",
         "param_ko": "얼음 보주"
+      },
+      {
+        "type": "hit-skill",
+        "param": "Charged Bolt",
+        "min": "11",
+        "max": "9",
+        "original_idx": 7,
+        "param_en": "Charged Bolt",
+        "param_ko": "번개 줄기"
       },
       {
         "type": "swing2",
@@ -1291,8 +1291,8 @@
         "original_idx": 2,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "dmg-mag",
@@ -1377,21 +1377,21 @@
     "options": [
       {
         "type": "hit-skill",
-        "param": "Chain Lightning",
-        "min": "10",
-        "max": "17",
-        "original_idx": 7,
-        "param_en": "Chain Lightning",
-        "param_ko": "연쇄 번개"
-      },
-      {
-        "type": "hit-skill",
         "param": "Static Field",
         "min": "7",
         "max": "13",
         "original_idx": 6,
         "param_en": "Static Field",
         "param_ko": "전자기장"
+      },
+      {
+        "type": "hit-skill",
+        "param": "Chain Lightning",
+        "min": "10",
+        "max": "17",
+        "original_idx": 7,
+        "param_en": "Chain Lightning",
+        "param_ko": "연쇄 번개"
       },
       {
         "type": "swing2",
@@ -1422,8 +1422,8 @@
         "original_idx": 3,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "pierce-ltng",
@@ -1518,15 +1518,6 @@
         "desc_ko": "indestruct"
       },
       {
-        "type": "death-skill",
-        "param": "Chain Lightning",
-        "min": "100",
-        "max": "44",
-        "original_idx": 5,
-        "param_en": "Chain Lightning",
-        "param_ko": "연쇄 번개"
-      },
-      {
         "type": "att-skill",
         "param": "Glacial Spike",
         "min": "25",
@@ -1536,6 +1527,15 @@
         "param_ko": "빙하 가시"
       },
       {
+        "type": "death-skill",
+        "param": "Chain Lightning",
+        "min": "100",
+        "max": "44",
+        "original_idx": 5,
+        "param_en": "Chain Lightning",
+        "param_ko": "연쇄 번개"
+      },
+      {
         "type": "dmg%",
         "param": "",
         "min": "300",
@@ -1543,8 +1543,8 @@
         "original_idx": 1,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "att%",
@@ -1660,13 +1660,22 @@
     ],
     "options": [
       {
+        "type": "hit-skill",
+        "param": "Confuse",
+        "min": "11",
+        "max": "18",
+        "original_idx": 1,
+        "param_en": "Confuse",
+        "param_ko": "혼란"
+      },
+      {
         "type": "gethit-skill",
-        "param": "Delerium Change",
-        "min": "1",
-        "max": "50",
-        "original_idx": 6,
-        "param_en": "Delerium Change",
-        "param_ko": "Delerium Change"
+        "param": "Terror",
+        "min": "14",
+        "max": "13",
+        "original_idx": 3,
+        "param_en": "Terror",
+        "param_ko": "공포"
       },
       {
         "type": "gethit-skill",
@@ -1679,21 +1688,12 @@
       },
       {
         "type": "gethit-skill",
-        "param": "Terror",
-        "min": "14",
-        "max": "13",
-        "original_idx": 3,
-        "param_en": "Terror",
-        "param_ko": "공포"
-      },
-      {
-        "type": "hit-skill",
-        "param": "Confuse",
-        "min": "11",
-        "max": "18",
-        "original_idx": 1,
-        "param_en": "Confuse",
-        "param_ko": "혼란"
+        "param": "Delerium Change",
+        "min": "1",
+        "max": "50",
+        "original_idx": 6,
+        "param_en": "Delerium Change",
+        "param_ko": "Delerium Change"
       },
       {
         "type": "allskills",
@@ -1788,21 +1788,12 @@
     "options": [
       {
         "type": "hit-skill",
-        "param": "Volcano",
-        "min": "23",
-        "max": "12",
-        "original_idx": 6,
-        "param_en": "Volcano",
-        "param_ko": "화산"
-      },
-      {
-        "type": "att-skill",
-        "param": "Nova",
-        "min": "15",
-        "max": "22",
-        "original_idx": 5,
-        "param_en": "Nova",
-        "param_ko": "번개 파장"
+        "param": "Molten Boulder",
+        "min": "5",
+        "max": "23",
+        "original_idx": 3,
+        "param_en": "Molten Boulder",
+        "param_ko": "타오르는 바위"
       },
       {
         "type": "death-skill",
@@ -1814,13 +1805,22 @@
         "param_ko": "운석 낙하"
       },
       {
+        "type": "att-skill",
+        "param": "Nova",
+        "min": "15",
+        "max": "22",
+        "original_idx": 5,
+        "param_en": "Nova",
+        "param_ko": "번개 파장"
+      },
+      {
         "type": "hit-skill",
-        "param": "Molten Boulder",
-        "min": "5",
-        "max": "23",
-        "original_idx": 3,
-        "param_en": "Molten Boulder",
-        "param_ko": "타오르는 바위"
+        "param": "Volcano",
+        "min": "23",
+        "max": "12",
+        "original_idx": 6,
+        "param_en": "Volcano",
+        "param_ko": "화산"
       },
       {
         "type": "ignore-ac",
@@ -1840,8 +1840,8 @@
         "original_idx": 1,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "dmg-mag",
@@ -1983,8 +1983,8 @@
         "original_idx": 1,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "pierce-cold",
@@ -2050,133 +2050,6 @@
       }
     ]
   },
-  "Dragon (Shield)": {
-    "name_en": "Dragon (Shield)",
-    "name_ko": "용 (방패)",
-    "runes_ko": [
-      "수르",
-      "로",
-      "솔"
-    ],
-    "runes_en": [
-      "Sur",
-      "Lo",
-      "Sol"
-    ],
-    "allowed_types": [
-      {
-        "en": "Body Armors",
-        "ko": "갑옷"
-      },
-      {
-        "en": "Shields",
-        "ko": "방패"
-      }
-    ],
-    "options": [
-      {
-        "type": "gethit-skill",
-        "param": "Venom",
-        "min": "20",
-        "max": "18",
-        "original_idx": 5,
-        "param_en": "Venom",
-        "param_ko": "맹독"
-      },
-      {
-        "type": "hit-skill",
-        "param": "Hydra",
-        "min": "12",
-        "max": "15",
-        "original_idx": 4,
-        "param_en": "Hydra",
-        "param_ko": "히드라"
-      },
-      {
-        "type": "aura",
-        "param": "Holy Fire",
-        "min": "14",
-        "max": "14",
-        "original_idx": 6,
-        "param_en": "Holy Fire",
-        "param_ko": "신성한 불꽃"
-      },
-      {
-        "type": "ac",
-        "param": "",
-        "min": "360",
-        "max": "360",
-        "original_idx": 1,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Defense",
-        "desc_ko": "방어력"
-      },
-      {
-        "type": "ac-miss",
-        "param": "",
-        "min": "230",
-        "max": "230",
-        "original_idx": 2,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Defense vs. Missile",
-        "desc_ko": "원거리 공격 방어력"
-      },
-      {
-        "type": "all-stats",
-        "param": "",
-        "min": "3",
-        "max": "5",
-        "original_idx": 7,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Strength",
-        "desc_ko": "힘"
-      },
-      {
-        "type": "str/lvl",
-        "param": "3",
-        "min": "",
-        "max": "",
-        "original_idx": 3,
-        "param_en": "3",
-        "param_ko": "3",
-        "desc_en": "to Strength",
-        "desc_ko": "힘"
-      },
-      {
-        "type": "mana",
-        "param": "",
-        "min": "50",
-        "max": "50",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Mana",
-        "desc_ko": "마나"
-      },
-      {
-        "type": "res-ltng-max",
-        "param": "",
-        "min": "5",
-        "max": "5",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Maximum Lightning Resist",
-        "desc_ko": "최대 번개 저항"
-      },
-      {
-        "type": "red-dmg",
-        "param": "",
-        "min": "7",
-        "max": "7",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Damage Reduced by",
-        "desc_ko": "피해 감소"
-      }
-    ]
-  },
   "Dragon (Armor)": {
     "name_en": "Dragon (Armor)",
     "name_ko": "용 (갑옷/투구)",
@@ -2202,15 +2075,6 @@
     ],
     "options": [
       {
-        "type": "gethit-skill",
-        "param": "Venom",
-        "min": "20",
-        "max": "18",
-        "original_idx": 5,
-        "param_en": "Venom",
-        "param_ko": "맹독"
-      },
-      {
         "type": "hit-skill",
         "param": "Hydra",
         "min": "12",
@@ -2218,6 +2082,15 @@
         "original_idx": 4,
         "param_en": "Hydra",
         "param_ko": "히드라"
+      },
+      {
+        "type": "gethit-skill",
+        "param": "Venom",
+        "min": "20",
+        "max": "18",
+        "original_idx": 5,
+        "param_en": "Venom",
+        "param_ko": "맹독"
       },
       {
         "type": "aura",
@@ -2258,8 +2131,8 @@
         "original_idx": 7,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "to Strength",
-        "desc_ko": "힘"
+        "desc_en": "All Attributes",
+        "desc_ko": "모든 능력치"
       },
       {
         "type": "str/lvl",
@@ -2304,23 +2177,23 @@
       }
     ]
   },
-  "Dream (Shield)": {
-    "name_en": "Dream (Shield)",
-    "name_ko": "꿈 (방패)",
+  "Dragon (Shield)": {
+    "name_en": "Dragon (Shield)",
+    "name_ko": "용 (방패)",
     "runes_ko": [
-      "이오",
-      "자",
-      "풀"
+      "수르",
+      "로",
+      "솔"
     ],
     "runes_en": [
-      "Io",
-      "Jah",
-      "Pul"
+      "Sur",
+      "Lo",
+      "Sol"
     ],
     "allowed_types": [
       {
-        "en": "Helms",
-        "ko": "투구"
+        "en": "Body Armors",
+        "ko": "갑옷"
       },
       {
         "en": "Shields",
@@ -2329,49 +2202,37 @@
     ],
     "options": [
       {
-        "type": "gethit-skill",
-        "param": "Confuse",
-        "min": "10",
+        "type": "hit-skill",
+        "param": "Hydra",
+        "min": "12",
         "max": "15",
-        "original_idx": 2,
-        "param_en": "Confuse",
-        "param_ko": "혼란"
+        "original_idx": 4,
+        "param_en": "Hydra",
+        "param_ko": "히드라"
+      },
+      {
+        "type": "gethit-skill",
+        "param": "Venom",
+        "min": "20",
+        "max": "18",
+        "original_idx": 5,
+        "param_en": "Venom",
+        "param_ko": "맹독"
       },
       {
         "type": "aura",
-        "param": "Holy Shock",
-        "min": "15",
-        "max": "15",
+        "param": "Holy Fire",
+        "min": "14",
+        "max": "14",
         "original_idx": 6,
-        "param_en": "Holy Shock",
-        "param_ko": "신성한 충격"
-      },
-      {
-        "type": "balance3",
-        "param": "",
-        "min": "20",
-        "max": "30",
-        "original_idx": 5,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Faster Hit Recovery",
-        "desc_ko": "타격 회복 속도"
-      },
-      {
-        "type": "ac%",
-        "param": "",
-        "min": "30",
-        "max": "30",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Enhanced Defense",
-        "desc_ko": "방어력 증가"
+        "param_en": "Holy Fire",
+        "param_ko": "신성한 불꽃"
       },
       {
         "type": "ac",
         "param": "",
-        "min": "150",
-        "max": "220",
+        "min": "360",
+        "max": "360",
         "original_idx": 1,
         "param_en": "",
         "param_ko": "",
@@ -2379,57 +2240,67 @@
         "desc_ko": "방어력"
       },
       {
-        "type": "vit",
+        "type": "ac-miss",
         "param": "",
-        "min": "10",
-        "max": "10",
+        "min": "230",
+        "max": "230",
+        "original_idx": 2,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "to Vitality",
-        "desc_ko": "활력"
+        "desc_en": "Defense vs. Missile",
+        "desc_ko": "원거리 공격 방어력"
       },
       {
-        "type": "hp",
+        "type": "all-stats",
+        "param": "",
+        "min": "3",
+        "max": "5",
+        "original_idx": 7,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "All Attributes",
+        "desc_ko": "모든 능력치"
+      },
+      {
+        "type": "str/lvl",
+        "param": "3",
+        "min": "",
+        "max": "",
+        "original_idx": 3,
+        "param_en": "3",
+        "param_ko": "3",
+        "desc_en": "to Strength",
+        "desc_ko": "힘"
+      },
+      {
+        "type": "mana",
         "param": "",
         "min": "50",
         "max": "50",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "to Life",
-        "desc_ko": "생명력"
-      },
-      {
-        "type": "mana/lvl",
-        "param": "5",
-        "min": "",
-        "max": "",
-        "original_idx": 3,
-        "param_en": "5",
-        "param_ko": "5",
         "desc_en": "to Mana",
         "desc_ko": "마나"
       },
       {
-        "type": "res-all",
+        "type": "res-ltng-max",
         "param": "",
         "min": "5",
-        "max": "20",
-        "original_idx": 4,
+        "max": "5",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Fire Resist",
-        "desc_ko": "화염 저항"
+        "desc_en": "to Maximum Lightning Resist",
+        "desc_ko": "최대 번개 저항"
       },
       {
-        "type": "mag%",
+        "type": "red-dmg",
         "param": "",
-        "min": "12",
-        "max": "25",
-        "original_idx": 7,
+        "min": "7",
+        "max": "7",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Better Chance of Getting Magic Items",
-        "desc_ko": "마법 아이템 발견 확률 증가"
+        "desc_en": "Damage Reduced by",
+        "desc_ko": "피해 감소"
       }
     ]
   },
@@ -2546,8 +2417,137 @@
         "original_idx": 4,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Fire Resist",
-        "desc_ko": "화염 저항"
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
+      },
+      {
+        "type": "mag%",
+        "param": "",
+        "min": "12",
+        "max": "25",
+        "original_idx": 7,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Better Chance of Getting Magic Items",
+        "desc_ko": "마법 아이템 발견 확률 증가"
+      }
+    ]
+  },
+  "Dream (Shield)": {
+    "name_en": "Dream (Shield)",
+    "name_ko": "꿈 (방패)",
+    "runes_ko": [
+      "이오",
+      "자",
+      "풀"
+    ],
+    "runes_en": [
+      "Io",
+      "Jah",
+      "Pul"
+    ],
+    "allowed_types": [
+      {
+        "en": "Helms",
+        "ko": "투구"
+      },
+      {
+        "en": "Shields",
+        "ko": "방패"
+      }
+    ],
+    "options": [
+      {
+        "type": "gethit-skill",
+        "param": "Confuse",
+        "min": "10",
+        "max": "15",
+        "original_idx": 2,
+        "param_en": "Confuse",
+        "param_ko": "혼란"
+      },
+      {
+        "type": "aura",
+        "param": "Holy Shock",
+        "min": "15",
+        "max": "15",
+        "original_idx": 6,
+        "param_en": "Holy Shock",
+        "param_ko": "신성한 충격"
+      },
+      {
+        "type": "balance3",
+        "param": "",
+        "min": "20",
+        "max": "30",
+        "original_idx": 5,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Faster Hit Recovery",
+        "desc_ko": "타격 회복 속도"
+      },
+      {
+        "type": "ac%",
+        "param": "",
+        "min": "30",
+        "max": "30",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Defense",
+        "desc_ko": "방어력 증가"
+      },
+      {
+        "type": "ac",
+        "param": "",
+        "min": "150",
+        "max": "220",
+        "original_idx": 1,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Defense",
+        "desc_ko": "방어력"
+      },
+      {
+        "type": "vit",
+        "param": "",
+        "min": "10",
+        "max": "10",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Vitality",
+        "desc_ko": "활력"
+      },
+      {
+        "type": "hp",
+        "param": "",
+        "min": "50",
+        "max": "50",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Life",
+        "desc_ko": "생명력"
+      },
+      {
+        "type": "mana/lvl",
+        "param": "5",
+        "min": "",
+        "max": "",
+        "original_idx": 3,
+        "param_en": "5",
+        "param_ko": "5",
+        "desc_en": "to Mana",
+        "desc_ko": "마나"
+      },
+      {
+        "type": "res-all",
+        "param": "",
+        "min": "5",
+        "max": "20",
+        "original_idx": 4,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
       },
       {
         "type": "mag%",
@@ -2601,8 +2601,8 @@
         "original_idx": 2,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "dmg-cold",
@@ -2676,8 +2676,8 @@
         "max": "15",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Fire Resist",
-        "desc_ko": "화염 저항"
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
       }
     ]
   },
@@ -2777,8 +2777,8 @@
         "original_idx": 6,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "to Strength",
-        "desc_ko": "힘"
+        "desc_en": "All Attributes",
+        "desc_ko": "모든 능력치"
       },
       {
         "type": "mana-kill",
@@ -2951,15 +2951,6 @@
     ],
     "options": [
       {
-        "type": "gethit-skill",
-        "param": "Blaze",
-        "min": "5",
-        "max": "15",
-        "original_idx": 2,
-        "param_en": "Blaze",
-        "param_ko": "불길"
-      },
-      {
         "type": "hit-skill",
         "param": "Fire Ball",
         "min": "5",
@@ -2967,6 +2958,15 @@
         "original_idx": 1,
         "param_en": "Fire Ball",
         "param_ko": "화염구"
+      },
+      {
+        "type": "gethit-skill",
+        "param": "Blaze",
+        "min": "5",
+        "max": "15",
+        "original_idx": 2,
+        "param_en": "Blaze",
+        "param_ko": "불길"
       },
       {
         "type": "sor",
@@ -3054,8 +3054,8 @@
         "original_idx": 1,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "dmg-min",
@@ -3064,7 +3064,7 @@
         "max": "9",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "to Minimum Damage",
+        "desc_en": "Minimum Damage",
         "desc_ko": "최소 피해"
       },
       {
@@ -3222,8 +3222,8 @@
         "max": "50",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "manasteal",
@@ -3343,8 +3343,8 @@
         "original_idx": 1,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "att%",
@@ -3386,8 +3386,8 @@
         "original_idx": 4,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Fire Resist",
-        "desc_ko": "화염 저항"
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
       },
       {
         "type": "reanimate",
@@ -3473,8 +3473,8 @@
         "original_idx": 1,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "dmg-mag",
@@ -3495,8 +3495,8 @@
         "original_idx": 6,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "to Minimum Fire Damage",
-        "desc_ko": "최소 화염 피해"
+        "desc_en": "Adds Fire, Lightning and Cold Damage",
+        "desc_ko": "화염, 번개, 냉기 피해 추가"
       },
       {
         "type": "dmg-ltng",
@@ -3723,8 +3723,8 @@
         "original_idx": 2,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "dmg-min",
@@ -3733,7 +3733,7 @@
         "max": "9",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "to Minimum Damage",
+        "desc_en": "Minimum Damage",
         "desc_ko": "최소 피해"
       },
       {
@@ -3796,8 +3796,8 @@
         "original_idx": 7,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Fire Resist",
-        "desc_ko": "화염 저항"
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
       },
       {
         "type": "dmg-to-mana",
@@ -3876,8 +3876,8 @@
         "original_idx": 2,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "ac%",
@@ -3939,8 +3939,8 @@
         "original_idx": 7,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Fire Resist",
-        "desc_ko": "화염 저항"
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
       },
       {
         "type": "red-dmg",
@@ -4021,8 +4021,8 @@
         "original_idx": 1,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "reduce-ac",
@@ -4078,15 +4078,6 @@
         "desc_ko": "상처 악화 확률"
       },
       {
-        "type": "skill",
-        "param": "147",
-        "min": "5",
-        "max": "5",
-        "original_idx": 7,
-        "param_en": "Frenzy",
-        "param_ko": "광분"
-      },
-      {
         "type": "noheal",
         "param": "",
         "min": "1",
@@ -4096,6 +4087,16 @@
         "param_ko": "",
         "desc_en": "Prevent Monster Heal",
         "desc_ko": "괴물 회복 저지"
+      },
+      {
+        "type": "skill",
+        "param": "147",
+        "min": "5",
+        "max": "5",
+        "original_idx": 7,
+        "param_en": "Frenzy",
+        "param_ko": "광분",
+        "charclass": "bar"
       }
     ]
   },
@@ -4168,8 +4169,8 @@
         "original_idx": 2,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Fire Resist",
-        "desc_ko": "화염 저항"
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
       },
       {
         "type": "half-freeze",
@@ -4339,6 +4340,16 @@
         "desc_ko": "괴물 회복 저지"
       },
       {
+        "type": "mana-kill",
+        "param": "",
+        "min": "2",
+        "max": "2",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Mana after each Kill",
+        "desc_ko": "적 처치 시 마나"
+      },
+      {
         "type": "heal-kill",
         "param": "",
         "min": "10",
@@ -4348,16 +4359,6 @@
         "param_ko": "",
         "desc_en": "Life after each Kill",
         "desc_ko": "적 처치 시 생명력"
-      },
-      {
-        "type": "mana-kill",
-        "param": "",
-        "min": "2",
-        "max": "2",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Mana after each Kill",
-        "desc_ko": "적 처치 시 마나"
       }
     ]
   },
@@ -4384,15 +4385,6 @@
     ],
     "options": [
       {
-        "type": "death-skill",
-        "param": "Meteor",
-        "min": "100",
-        "max": "48",
-        "original_idx": 5,
-        "param_en": "Meteor",
-        "param_ko": "운석 낙하"
-      },
-      {
         "type": "levelup-skill",
         "param": "Blaze",
         "min": "100",
@@ -4400,6 +4392,15 @@
         "original_idx": 4,
         "param_en": "Blaze",
         "param_ko": "불길"
+      },
+      {
+        "type": "death-skill",
+        "param": "Meteor",
+        "min": "100",
+        "max": "48",
+        "original_idx": 5,
+        "param_en": "Meteor",
+        "param_ko": "운석 낙하"
       },
       {
         "type": "aura",
@@ -4440,8 +4441,18 @@
         "original_idx": 2,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
+      },
+      {
+        "type": "lifesteal",
+        "param": "",
+        "min": "7",
+        "max": "7",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Life stolen per hit",
+        "desc_ko": "적중당 생명력 훔침"
       },
       {
         "type": "pierce-fire",
@@ -4453,16 +4464,6 @@
         "param_ko": "",
         "desc_en": "- to Enemy Fire Resistance",
         "desc_ko": "적의 화염 저항 -"
-      },
-      {
-        "type": "lifesteal",
-        "param": "",
-        "min": "7",
-        "max": "7",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Life stolen per hit",
-        "desc_ko": "적중당 생명력 훔침"
       },
       {
         "type": "deadly",
@@ -4530,14 +4531,18 @@
         "original_idx": 1,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "dmg-norm",
         "param": "",
         "min": "9",
-        "max": "9"
+        "max": "9",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Adds Damage",
+        "desc_ko": "피해 추가"
       },
       {
         "type": "dmg-elem",
@@ -4547,8 +4552,8 @@
         "original_idx": 2,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "to Minimum Fire Damage",
-        "desc_ko": "최소 화염 피해"
+        "desc_en": "Adds Fire, Lightning and Cold Damage",
+        "desc_ko": "화염, 번개, 냉기 피해 추가"
       },
       {
         "type": "oskill",
@@ -4740,17 +4745,8 @@
         "original_idx": 6,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Fire Resist",
-        "desc_ko": "화염 저항"
-      },
-      {
-        "type": "charged",
-        "param": "Raven",
-        "min": "60",
-        "max": "14",
-        "original_idx": 7,
-        "param_en": "Raven",
-        "param_ko": "큰까마귀의"
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
       },
       {
         "type": "charged",
@@ -4760,6 +4756,15 @@
         "original_idx": 2,
         "param_en": "Oak Sage",
         "param_ko": "참나무 현자"
+      },
+      {
+        "type": "charged",
+        "param": "Raven",
+        "min": "60",
+        "max": "14",
+        "original_idx": 7,
+        "param_en": "Raven",
+        "param_ko": "큰까마귀의"
       }
     ]
   },
@@ -4793,8 +4798,8 @@
         "original_idx": 1,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "reduce-ac",
@@ -4814,7 +4819,7 @@
         "original_idx": 3,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "to Maximum Damage",
+        "desc_en": "Maximum Damage",
         "desc_ko": "최대 피해"
       },
       {
@@ -4855,7 +4860,8 @@
         "max": "3",
         "original_idx": 6,
         "param_en": "Holy Shock",
-        "param_ko": "신성한 충격"
+        "param_ko": "신성한 충격",
+        "charclass": "pal"
       },
       {
         "type": "res-ltng-max",
@@ -4926,14 +4932,18 @@
         "original_idx": 1,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "dmg-norm",
         "param": "",
         "min": "9",
-        "max": "9"
+        "max": "9",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Adds Damage",
+        "desc_ko": "피해 추가"
       },
       {
         "type": "att",
@@ -5029,15 +5039,6 @@
     "allowed_types": [],
     "options": [
       {
-        "type": "levelup-skill",
-        "param": "Blizzard",
-        "min": "100",
-        "max": "40",
-        "original_idx": 5,
-        "param_en": "Blizzard",
-        "param_ko": "눈보라"
-      },
-      {
         "type": "hit-skill",
         "param": "Frost Nova",
         "min": "25",
@@ -5045,6 +5046,15 @@
         "original_idx": 4,
         "param_en": "Frost Nova",
         "param_ko": "서릿발"
+      },
+      {
+        "type": "levelup-skill",
+        "param": "Blizzard",
+        "min": "100",
+        "max": "40",
+        "original_idx": 5,
+        "param_en": "Blizzard",
+        "param_ko": "눈보라"
       },
       {
         "type": "aura",
@@ -5083,19 +5093,18 @@
         "original_idx": 1,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
-        "type": "pierce-cold",
+        "type": "lifesteal",
         "param": "",
-        "min": "20",
-        "max": "20",
-        "original_idx": 6,
+        "min": "7",
+        "max": "7",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "- to Enemy Cold Resistance",
-        "desc_ko": "적의 냉기 저항 -"
+        "desc_en": "Life stolen per hit",
+        "desc_ko": "적중당 생명력 훔침"
       },
       {
         "type": "extra-cold",
@@ -5109,14 +5118,15 @@
         "desc_ko": "냉기 기술 피해"
       },
       {
-        "type": "lifesteal",
+        "type": "pierce-cold",
         "param": "",
-        "min": "7",
-        "max": "7",
+        "min": "20",
+        "max": "20",
+        "original_idx": 6,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Life stolen per hit",
-        "desc_ko": "적중당 생명력 훔침"
+        "desc_en": "- to Enemy Cold Resistance",
+        "desc_ko": "적의 냉기 저항 -"
       },
       {
         "type": "deadly",
@@ -5204,8 +5214,8 @@
         "original_idx": 1,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "pierce-ltng",
@@ -5324,8 +5334,18 @@
         "original_idx": 1,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
+      },
+      {
+        "type": "dmg-min",
+        "param": "",
+        "min": "9",
+        "max": "9",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Minimum Damage",
+        "desc_ko": "최소 피해"
       },
       {
         "type": "att%",
@@ -5337,16 +5357,6 @@
         "param_ko": "",
         "desc_en": "Bonus to Attack Rating",
         "desc_ko": "명중률 보너스"
-      },
-      {
-        "type": "dmg-min",
-        "param": "",
-        "min": "9",
-        "max": "9",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Minimum Damage",
-        "desc_ko": "최소 피해"
       },
       {
         "type": "dmg-fire",
@@ -5385,8 +5395,8 @@
         "original_idx": 7,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "to Strength",
-        "desc_ko": "힘"
+        "desc_en": "All Attributes",
+        "desc_ko": "모든 능력치"
       },
       {
         "type": "mana-kill",
@@ -5443,8 +5453,8 @@
         "original_idx": 1,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "dmg-undead",
@@ -5571,6 +5581,17 @@
         "desc_ko": "공격 속도"
       },
       {
+        "type": "dmg%",
+        "param": "",
+        "min": "230",
+        "max": "270",
+        "original_idx": 2,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
+      },
+      {
         "type": "reduce-ac",
         "param": "",
         "min": "25",
@@ -5580,17 +5601,6 @@
         "param_ko": "",
         "desc_en": "- Target Defense",
         "desc_ko": "대상의 방어력 -"
-      },
-      {
-        "type": "dmg%",
-        "param": "",
-        "min": "230",
-        "max": "270",
-        "original_idx": 2,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
       },
       {
         "type": "att%",
@@ -5625,15 +5635,6 @@
         "desc_ko": "상처 악화 확률"
       },
       {
-        "type": "oskill",
-        "param": "Vengeance",
-        "min": "1",
-        "max": "1",
-        "original_idx": 6,
-        "param_en": "Vengeance",
-        "param_ko": "복수"
-      },
-      {
         "type": "noheal",
         "param": "",
         "min": "1",
@@ -5642,6 +5643,15 @@
         "param_ko": "",
         "desc_en": "Prevent Monster Heal",
         "desc_ko": "괴물 회복 저지"
+      },
+      {
+        "type": "oskill",
+        "param": "Vengeance",
+        "min": "1",
+        "max": "1",
+        "original_idx": 6,
+        "param_en": "Vengeance",
+        "param_ko": "복수"
       },
       {
         "type": "str",
@@ -5697,13 +5707,13 @@
     ],
     "options": [
       {
-        "type": "gethit-skill",
-        "param": "Fade",
-        "min": "6",
-        "max": "11",
-        "original_idx": 4,
-        "param_en": "Fade",
-        "param_ko": "흐리기"
+        "type": "att-skill",
+        "param": "Charged Bolt",
+        "min": "20",
+        "max": "20",
+        "original_idx": 2,
+        "param_en": "Charged Bolt",
+        "param_ko": "번개 줄기"
       },
       {
         "type": "hit-skill",
@@ -5715,13 +5725,13 @@
         "param_ko": "생명력 추출"
       },
       {
-        "type": "att-skill",
-        "param": "Charged Bolt",
-        "min": "20",
-        "max": "20",
-        "original_idx": 2,
-        "param_en": "Charged Bolt",
-        "param_ko": "번개 줄기"
+        "type": "gethit-skill",
+        "param": "Fade",
+        "min": "6",
+        "max": "11",
+        "original_idx": 4,
+        "param_en": "Fade",
+        "param_ko": "흐리기"
       },
       {
         "type": "aura",
@@ -5750,8 +5760,8 @@
         "original_idx": 1,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "crush",
@@ -5967,12 +5977,13 @@
       },
       {
         "type": "skill",
-        "param": "37",
+        "param": "41",
         "min": "3",
         "max": "3",
-        "original_idx": 6,
-        "param_en": "Warmth",
-        "param_ko": "온기"
+        "original_idx": 4,
+        "param_en": "Inferno",
+        "param_ko": "지옥불",
+        "charclass": "sor"
       },
       {
         "type": "skill",
@@ -5981,16 +5992,18 @@
         "max": "3",
         "original_idx": 5,
         "param_en": "Fire Bolt",
-        "param_ko": "화염탄"
+        "param_ko": "화염탄",
+        "charclass": "sor"
       },
       {
         "type": "skill",
-        "param": "41",
+        "param": "37",
         "min": "3",
         "max": "3",
-        "original_idx": 4,
-        "param_en": "Inferno",
-        "param_ko": "지옥불"
+        "original_idx": 6,
+        "param_en": "Warmth",
+        "param_ko": "온기",
+        "charclass": "sor"
       },
       {
         "type": "ac/lvl",
@@ -6054,8 +6067,8 @@
         "original_idx": 4,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "str",
@@ -6119,8 +6132,8 @@
         "original_idx": 6,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Fire Resist",
-        "desc_ko": "화염 저항"
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
       },
       {
         "type": "ease",
@@ -6239,8 +6252,8 @@
         "original_idx": 4,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "reduce-ac",
@@ -6259,7 +6272,7 @@
         "max": "9",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "to Maximum Damage",
+        "desc_en": "Maximum Damage",
         "desc_ko": "최대 피해"
       },
       {
@@ -6369,8 +6382,8 @@
         "original_idx": 1,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "dmg-undead",
@@ -6385,12 +6398,13 @@
       },
       {
         "type": "skill",
-        "param": "17",
+        "param": "9",
         "min": "3",
         "max": "3",
-        "original_idx": 5,
-        "param_en": "Slow Missiles",
-        "param_ko": "투사체 감속"
+        "original_idx": 3,
+        "param_en": "Critical Strike",
+        "param_ko": "치명타",
+        "charclass": "ama"
       },
       {
         "type": "skill",
@@ -6399,16 +6413,18 @@
         "max": "3",
         "original_idx": 4,
         "param_en": "Dodge",
-        "param_ko": "흘리기"
+        "param_ko": "흘리기",
+        "charclass": "ama"
       },
       {
         "type": "skill",
-        "param": "9",
+        "param": "17",
         "min": "3",
         "max": "3",
-        "original_idx": 3,
-        "param_en": "Critical Strike",
-        "param_ko": "치명타"
+        "original_idx": 5,
+        "param_en": "Slow Missiles",
+        "param_ko": "투사체 감속",
+        "charclass": "ama"
       },
       {
         "type": "knock",
@@ -6493,17 +6509,8 @@
         "max": "9",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "to Minimum Damage",
+        "desc_en": "Minimum Damage",
         "desc_ko": "최소 피해"
-      },
-      {
-        "type": "skill",
-        "param": "42",
-        "min": "2",
-        "max": "2",
-        "original_idx": 7,
-        "param_en": "Static Field",
-        "param_ko": "전자기장"
       },
       {
         "type": "skill",
@@ -6512,7 +6519,18 @@
         "max": "3",
         "original_idx": 6,
         "param_en": "Energy Shield",
-        "param_ko": "마력 보호막"
+        "param_ko": "마력 보호막",
+        "charclass": "sor"
+      },
+      {
+        "type": "skill",
+        "param": "42",
+        "min": "2",
+        "max": "2",
+        "original_idx": 7,
+        "param_en": "Static Field",
+        "param_ko": "전자기장",
+        "charclass": "sor"
       },
       {
         "type": "ac%",
@@ -6635,8 +6653,8 @@
         "original_idx": 2,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "att%",
@@ -6655,7 +6673,7 @@
         "max": "9",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "to Maximum Damage",
+        "desc_en": "Maximum Damage",
         "desc_ko": "최대 피해"
       },
       {
@@ -6697,8 +6715,8 @@
         "original_idx": 6,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Fire Resist",
-        "desc_ko": "화염 저항"
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
       }
     ]
   },
@@ -6723,15 +6741,6 @@
     ],
     "options": [
       {
-        "type": "gethit-skill",
-        "param": "Howl",
-        "min": "3",
-        "max": "1",
-        "original_idx": 2,
-        "param_en": "Howl",
-        "param_ko": "포효"
-      },
-      {
         "type": "hit-skill",
         "param": "Taunt",
         "min": "10",
@@ -6739,6 +6748,15 @@
         "original_idx": 1,
         "param_en": "Taunt",
         "param_ko": "도발"
+      },
+      {
+        "type": "gethit-skill",
+        "param": "Howl",
+        "min": "3",
+        "max": "1",
+        "original_idx": 2,
+        "param_en": "Howl",
+        "param_ko": "포효"
       },
       {
         "type": "bar",
@@ -6949,21 +6967,21 @@
         "param_ko": "뼈 영혼"
       },
       {
-        "type": "swing1",
+        "type": "swing2",
         "param": "",
-        "min": "30",
-        "max": "30",
-        "original_idx": 2,
+        "min": "20",
+        "max": "20",
         "param_en": "",
         "param_ko": "",
         "desc_en": "Increased Attack Speed",
         "desc_ko": "공격 속도"
       },
       {
-        "type": "swing2",
+        "type": "swing1",
         "param": "",
-        "min": "20",
-        "max": "20",
+        "min": "30",
+        "max": "30",
+        "original_idx": 2,
         "param_en": "",
         "param_ko": "",
         "desc_en": "Increased Attack Speed",
@@ -6977,8 +6995,8 @@
         "original_idx": 1,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "dmg-demon",
@@ -7033,21 +7051,21 @@
       },
       {
         "type": "charged",
-        "param": "Heart of Wolverine",
-        "min": "20",
-        "max": "16",
-        "original_idx": 5,
-        "param_en": "Heart of Wolverine",
-        "param_ko": "울버린의 심장"
-      },
-      {
-        "type": "charged",
         "param": "IronGolem",
         "min": "14",
         "max": "17",
         "original_idx": 4,
         "param_en": "Iron Golem",
         "param_ko": "강철 골렘"
+      },
+      {
+        "type": "charged",
+        "param": "Heart of Wolverine",
+        "min": "20",
+        "max": "16",
+        "original_idx": 5,
+        "param_en": "Heart of Wolverine",
+        "param_ko": "울버린의 심장"
       }
     ]
   },
@@ -7107,8 +7125,8 @@
         "original_idx": 1,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "reduce-ac",
@@ -7191,8 +7209,8 @@
         "original_idx": 7,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Fire Resist",
-        "desc_ko": "화염 저항"
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
       },
       {
         "type": "ease",
@@ -7344,8 +7362,8 @@
         "original_idx": 5,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Fire Resist",
-        "desc_ko": "화염 저항"
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
       },
       {
         "type": "gold%",
@@ -7410,8 +7428,8 @@
         "original_idx": 1,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "att%",
@@ -7446,21 +7464,21 @@
       },
       {
         "type": "oskill",
-        "param": "Berserk",
-        "min": "1",
-        "max": "1",
-        "original_idx": 4,
-        "param_en": "Berserk",
-        "param_ko": "광폭화"
-      },
-      {
-        "type": "oskill",
         "param": "Zeal",
         "min": "1",
         "max": "1",
         "original_idx": 2,
         "param_en": "Zeal",
         "param_ko": "열의"
+      },
+      {
+        "type": "oskill",
+        "param": "Berserk",
+        "min": "1",
+        "max": "1",
+        "original_idx": 4,
+        "param_en": "Berserk",
+        "param_ko": "광폭화"
       },
       {
         "type": "stupidity",
@@ -7553,8 +7571,8 @@
         "original_idx": 2,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "att%",
@@ -7638,8 +7656,8 @@
         "original_idx": 4,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Fire Resist",
-        "desc_ko": "화염 저항"
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
       }
     ]
   },
@@ -7664,15 +7682,6 @@
     ],
     "options": [
       {
-        "type": "gethit-skill",
-        "param": "Slow Missiles",
-        "min": "4",
-        "max": "5",
-        "original_idx": 2,
-        "param_en": "Slow Missiles",
-        "param_ko": "투사체 감속"
-      },
-      {
         "type": "hit-skill",
         "param": "Valkyrie",
         "min": "2",
@@ -7680,6 +7689,15 @@
         "original_idx": 1,
         "param_en": "Valkyrie",
         "param_ko": "발키리"
+      },
+      {
+        "type": "gethit-skill",
+        "param": "Slow Missiles",
+        "min": "4",
+        "max": "5",
+        "original_idx": 2,
+        "param_en": "Slow Missiles",
+        "param_ko": "투사체 감속"
       },
       {
         "type": "ama",
@@ -7761,21 +7779,21 @@
     "options": [
       {
         "type": "hit-skill",
-        "param": "Frozen Orb",
-        "min": "15",
-        "max": "13",
-        "original_idx": 6,
-        "param_en": "Frozen Orb",
-        "param_ko": "얼음 보주"
-      },
-      {
-        "type": "hit-skill",
         "param": "Ice Blast",
         "min": "18",
         "max": "20",
         "original_idx": 5,
         "param_en": "Ice Blast",
         "param_ko": "얼음 작렬"
+      },
+      {
+        "type": "hit-skill",
+        "param": "Frozen Orb",
+        "min": "15",
+        "max": "13",
+        "original_idx": 6,
+        "param_en": "Frozen Orb",
+        "param_ko": "얼음 보주"
       },
       {
         "type": "dmg-undead",
@@ -7884,6 +7902,135 @@
       }
     ]
   },
+  "Phoenix (Weapon)": {
+    "name_en": "Phoenix (Weapon)",
+    "name_ko": "불사조 (무기)",
+    "runes_ko": [
+      "벡스",
+      "벡스",
+      "로",
+      "자"
+    ],
+    "runes_en": [
+      "Vex",
+      "Vex",
+      "Lo",
+      "Jah"
+    ],
+    "allowed_types": [
+      {
+        "en": "Weapons",
+        "ko": "모든 무기"
+      },
+      {
+        "en": "Shields",
+        "ko": "방패"
+      }
+    ],
+    "options": [
+      {
+        "type": "hit-skill",
+        "param": "Firestorm",
+        "min": "40",
+        "max": "22",
+        "original_idx": 3,
+        "param_en": "Firestorm",
+        "param_ko": "화염폭풍"
+      },
+      {
+        "type": "levelup-skill",
+        "param": "Blaze",
+        "min": "100",
+        "max": "40",
+        "original_idx": 4,
+        "param_en": "Blaze",
+        "param_ko": "불길"
+      },
+      {
+        "type": "aura",
+        "param": "Redemption",
+        "min": "10",
+        "max": "15",
+        "original_idx": 6,
+        "param_en": "Redemption",
+        "param_ko": "속죄"
+      },
+      {
+        "type": "ignore-ac",
+        "param": "",
+        "min": "1",
+        "max": "1",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Ignore Target's Defense",
+        "desc_ko": "대상의 방어력 무시"
+      },
+      {
+        "type": "dmg%",
+        "param": "",
+        "min": "350",
+        "max": "400",
+        "original_idx": 1,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
+      },
+      {
+        "type": "manasteal",
+        "param": "",
+        "min": "14",
+        "max": "14",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Mana stolen per hit",
+        "desc_ko": "적중당 마나 훔침"
+      },
+      {
+        "type": "pierce-fire",
+        "param": "",
+        "min": "28",
+        "max": "28",
+        "original_idx": 5,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "- to Enemy Fire Resistance",
+        "desc_ko": "적의 화염 저항 -"
+      },
+      {
+        "type": "deadly",
+        "param": "",
+        "min": "20",
+        "max": "20",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Deadly Strike",
+        "desc_ko": "치명적 공격"
+      },
+      {
+        "type": "ac-miss",
+        "param": "",
+        "min": "350",
+        "max": "400",
+        "original_idx": 2,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Defense vs. Missile",
+        "desc_ko": "원거리 공격 방어력"
+      },
+      {
+        "type": "abs-fire",
+        "param": "",
+        "min": "15",
+        "max": "21",
+        "original_idx": 7,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Fire Absorb",
+        "desc_ko": "화염 흡수"
+      }
+    ]
+  },
   "Phoenix (Shield)": {
     "name_en": "Phoenix (Shield)",
     "name_ko": "불사조 (방패)",
@@ -7911,15 +8058,6 @@
     ],
     "options": [
       {
-        "type": "levelup-skill",
-        "param": "Blaze",
-        "min": "100",
-        "max": "40",
-        "original_idx": 4,
-        "param_en": "Blaze",
-        "param_ko": "불길"
-      },
-      {
         "type": "hit-skill",
         "param": "Firestorm",
         "min": "40",
@@ -7927,6 +8065,15 @@
         "original_idx": 3,
         "param_en": "Firestorm",
         "param_ko": "화염폭풍"
+      },
+      {
+        "type": "levelup-skill",
+        "param": "Blaze",
+        "min": "100",
+        "max": "40",
+        "original_idx": 4,
+        "param_en": "Blaze",
+        "param_ko": "불길"
       },
       {
         "type": "aura",
@@ -7945,8 +8092,8 @@
         "original_idx": 1,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "pierce-fire",
@@ -8013,135 +8160,6 @@
       }
     ]
   },
-  "Phoenix (Weapon)": {
-    "name_en": "Phoenix (Weapon)",
-    "name_ko": "불사조 (무기)",
-    "runes_ko": [
-      "벡스",
-      "벡스",
-      "로",
-      "자"
-    ],
-    "runes_en": [
-      "Vex",
-      "Vex",
-      "Lo",
-      "Jah"
-    ],
-    "allowed_types": [
-      {
-        "en": "Weapons",
-        "ko": "모든 무기"
-      },
-      {
-        "en": "Shields",
-        "ko": "방패"
-      }
-    ],
-    "options": [
-      {
-        "type": "levelup-skill",
-        "param": "Blaze",
-        "min": "100",
-        "max": "40",
-        "original_idx": 4,
-        "param_en": "Blaze",
-        "param_ko": "불길"
-      },
-      {
-        "type": "hit-skill",
-        "param": "Firestorm",
-        "min": "40",
-        "max": "22",
-        "original_idx": 3,
-        "param_en": "Firestorm",
-        "param_ko": "화염폭풍"
-      },
-      {
-        "type": "aura",
-        "param": "Redemption",
-        "min": "10",
-        "max": "15",
-        "original_idx": 6,
-        "param_en": "Redemption",
-        "param_ko": "속죄"
-      },
-      {
-        "type": "ignore-ac",
-        "param": "",
-        "min": "1",
-        "max": "1",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Ignore Target's Defense",
-        "desc_ko": "대상의 방어력 무시"
-      },
-      {
-        "type": "dmg%",
-        "param": "",
-        "min": "350",
-        "max": "400",
-        "original_idx": 1,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
-      },
-      {
-        "type": "manasteal",
-        "param": "",
-        "min": "14",
-        "max": "14",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Mana stolen per hit",
-        "desc_ko": "적중당 마나 훔침"
-      },
-      {
-        "type": "pierce-fire",
-        "param": "",
-        "min": "28",
-        "max": "28",
-        "original_idx": 5,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "- to Enemy Fire Resistance",
-        "desc_ko": "적의 화염 저항 -"
-      },
-      {
-        "type": "deadly",
-        "param": "",
-        "min": "20",
-        "max": "20",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Deadly Strike",
-        "desc_ko": "치명적 공격"
-      },
-      {
-        "type": "ac-miss",
-        "param": "",
-        "min": "350",
-        "max": "400",
-        "original_idx": 2,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Defense vs. Missile",
-        "desc_ko": "원거리 공격 방어력"
-      },
-      {
-        "type": "abs-fire",
-        "param": "",
-        "min": "15",
-        "max": "21",
-        "original_idx": 7,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Fire Absorb",
-        "desc_ko": "화염 흡수"
-      }
-    ]
-  },
   "Plague": {
     "name_en": "Plague",
     "name_ko": "역병",
@@ -8171,15 +8189,6 @@
     ],
     "options": [
       {
-        "type": "hit-skill",
-        "param": "Poison Nova",
-        "min": "25",
-        "max": "15",
-        "original_idx": 3,
-        "param_en": "Poison Nova",
-        "param_ko": "맹독 확산"
-      },
-      {
         "type": "gethit-skill",
         "param": "Lower Resist",
         "min": "20",
@@ -8187,6 +8196,15 @@
         "original_idx": 2,
         "param_en": "Lower Resist",
         "param_ko": "저항 감소"
+      },
+      {
+        "type": "hit-skill",
+        "param": "Poison Nova",
+        "min": "25",
+        "max": "15",
+        "original_idx": 3,
+        "param_en": "Poison Nova",
+        "param_ko": "맹독 확산"
       },
       {
         "type": "aura",
@@ -8226,8 +8244,8 @@
         "original_idx": 1,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "pierce-pois",
@@ -8556,8 +8574,8 @@
         "original_idx": 4,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Fire Resist",
-        "desc_ko": "화염 저항"
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
       },
       {
         "type": "red-dmg",
@@ -8754,15 +8772,6 @@
     ],
     "options": [
       {
-        "type": "gethit-skill",
-        "param": "Cyclone Armor",
-        "min": "5",
-        "max": "15",
-        "original_idx": 2,
-        "param_en": "Cyclone Armor",
-        "param_ko": "회오리 갑옷"
-      },
-      {
         "type": "hit-skill",
         "param": "Twister",
         "min": "5",
@@ -8770,6 +8779,15 @@
         "original_idx": 1,
         "param_en": "Twister",
         "param_ko": "돌개바람"
+      },
+      {
+        "type": "gethit-skill",
+        "param": "Cyclone Armor",
+        "min": "5",
+        "max": "15",
+        "original_idx": 2,
+        "param_en": "Cyclone Armor",
+        "param_ko": "회오리 갑옷"
       },
       {
         "type": "dru",
@@ -8883,8 +8901,8 @@
         "original_idx": 3,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Fire Resist",
-        "desc_ko": "화염 저항"
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
       },
       {
         "type": "nofreeze",
@@ -8948,15 +8966,6 @@
     ],
     "options": [
       {
-        "type": "att-skill",
-        "param": "Frozen Orb",
-        "min": "16",
-        "max": "21",
-        "original_idx": 5,
-        "param_en": "Frozen Orb",
-        "param_ko": "얼음 보주"
-      },
-      {
         "type": "hit-skill",
         "param": "Tornado",
         "min": "20",
@@ -8964,6 +8973,15 @@
         "original_idx": 4,
         "param_en": "Tornado",
         "param_ko": "회오리바람"
+      },
+      {
+        "type": "att-skill",
+        "param": "Frozen Orb",
+        "min": "16",
+        "max": "21",
+        "original_idx": 5,
+        "param_en": "Frozen Orb",
+        "param_ko": "얼음 보주"
       },
       {
         "type": "att%",
@@ -9005,8 +9023,8 @@
         "original_idx": 7,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "to Strength",
-        "desc_ko": "힘"
+        "desc_en": "All Attributes",
+        "desc_ko": "모든 능력치"
       },
       {
         "type": "dex",
@@ -9153,8 +9171,8 @@
         "original_idx": 5,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Fire Resist",
-        "desc_ko": "화염 저항"
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
       },
       {
         "type": "red-mag",
@@ -9244,8 +9262,8 @@
         "original_idx": 3,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "att-undead",
@@ -9297,8 +9315,8 @@
         "original_idx": 5,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Fire Resist",
-        "desc_ko": "화염 저항"
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
       },
       {
         "type": "mana-kill",
@@ -9411,8 +9429,8 @@
         "original_idx": 3,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Fire Resist",
-        "desc_ko": "화염 저항"
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
       },
       {
         "type": "light",
@@ -9433,151 +9451,6 @@
         "original_idx": 6,
         "param_en": "Weaken",
         "param_ko": "약화"
-      }
-    ]
-  },
-  "Spirit (Shield)": {
-    "name_en": "Spirit (Shield)",
-    "name_ko": "영혼 (방패)",
-    "runes_ko": [
-      "탈",
-      "주울",
-      "오르트",
-      "앰"
-    ],
-    "runes_en": [
-      "Tal",
-      "Thul",
-      "Ort",
-      "Amn"
-    ],
-    "allowed_types": [
-      {
-        "en": "Swords",
-        "ko": "검"
-      },
-      {
-        "en": "Shields",
-        "ko": "방패"
-      }
-    ],
-    "options": [
-      {
-        "type": "allskills",
-        "param": "",
-        "min": "2",
-        "max": "2",
-        "original_idx": 7,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "All Skills",
-        "desc_ko": "모든 기술 레벨"
-      },
-      {
-        "type": "cast3",
-        "param": "",
-        "min": "25",
-        "max": "35",
-        "original_idx": 5,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Faster Cast Rate",
-        "desc_ko": "시전 속도"
-      },
-      {
-        "type": "balance3",
-        "param": "",
-        "min": "55",
-        "max": "55",
-        "original_idx": 1,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Faster Hit Recovery",
-        "desc_ko": "타격 회복 속도"
-      },
-      {
-        "type": "ac-miss",
-        "param": "",
-        "min": "250",
-        "max": "250",
-        "original_idx": 3,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Defense vs. Missile",
-        "desc_ko": "원거리 공격 방어력"
-      },
-      {
-        "type": "vit",
-        "param": "",
-        "min": "22",
-        "max": "22",
-        "original_idx": 4,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Vitality",
-        "desc_ko": "활력"
-      },
-      {
-        "type": "mana",
-        "param": "",
-        "min": "89",
-        "max": "112",
-        "original_idx": 2,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Mana",
-        "desc_ko": "마나"
-      },
-      {
-        "type": "res-cold",
-        "param": "",
-        "min": "35",
-        "max": "35",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Cold Resist",
-        "desc_ko": "냉기 저항"
-      },
-      {
-        "type": "res-ltng",
-        "param": "",
-        "min": "35",
-        "max": "35",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Lightning Resist",
-        "desc_ko": "번개 저항"
-      },
-      {
-        "type": "res-pois",
-        "param": "",
-        "min": "35",
-        "max": "35",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Poison Resist",
-        "desc_ko": "독 저항"
-      },
-      {
-        "type": "abs-mag",
-        "param": "",
-        "min": "3",
-        "max": "8",
-        "original_idx": 6,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Magic Absorb",
-        "desc_ko": "마법 흡수"
-      },
-      {
-        "type": "thorns",
-        "param": "",
-        "min": "14",
-        "max": "14",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Attacker Takes Damage of",
-        "desc_ko": "공격자가 피해를 받음"
       }
     ]
   },
@@ -9723,6 +9596,151 @@
         "param_ko": "",
         "desc_en": "Magic Absorb",
         "desc_ko": "마법 흡수"
+      }
+    ]
+  },
+  "Spirit (Shield)": {
+    "name_en": "Spirit (Shield)",
+    "name_ko": "영혼 (방패)",
+    "runes_ko": [
+      "탈",
+      "주울",
+      "오르트",
+      "앰"
+    ],
+    "runes_en": [
+      "Tal",
+      "Thul",
+      "Ort",
+      "Amn"
+    ],
+    "allowed_types": [
+      {
+        "en": "Swords",
+        "ko": "검"
+      },
+      {
+        "en": "Shields",
+        "ko": "방패"
+      }
+    ],
+    "options": [
+      {
+        "type": "allskills",
+        "param": "",
+        "min": "2",
+        "max": "2",
+        "original_idx": 7,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "All Skills",
+        "desc_ko": "모든 기술 레벨"
+      },
+      {
+        "type": "cast3",
+        "param": "",
+        "min": "25",
+        "max": "35",
+        "original_idx": 5,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Faster Cast Rate",
+        "desc_ko": "시전 속도"
+      },
+      {
+        "type": "balance3",
+        "param": "",
+        "min": "55",
+        "max": "55",
+        "original_idx": 1,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Faster Hit Recovery",
+        "desc_ko": "타격 회복 속도"
+      },
+      {
+        "type": "ac-miss",
+        "param": "",
+        "min": "250",
+        "max": "250",
+        "original_idx": 3,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Defense vs. Missile",
+        "desc_ko": "원거리 공격 방어력"
+      },
+      {
+        "type": "vit",
+        "param": "",
+        "min": "22",
+        "max": "22",
+        "original_idx": 4,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Vitality",
+        "desc_ko": "활력"
+      },
+      {
+        "type": "mana",
+        "param": "",
+        "min": "89",
+        "max": "112",
+        "original_idx": 2,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Mana",
+        "desc_ko": "마나"
+      },
+      {
+        "type": "res-cold",
+        "param": "",
+        "min": "35",
+        "max": "35",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Cold Resist",
+        "desc_ko": "냉기 저항"
+      },
+      {
+        "type": "res-ltng",
+        "param": "",
+        "min": "35",
+        "max": "35",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Lightning Resist",
+        "desc_ko": "번개 저항"
+      },
+      {
+        "type": "res-pois",
+        "param": "",
+        "min": "35",
+        "max": "35",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Poison Resist",
+        "desc_ko": "독 저항"
+      },
+      {
+        "type": "abs-mag",
+        "param": "",
+        "min": "3",
+        "max": "8",
+        "original_idx": 6,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Magic Absorb",
+        "desc_ko": "마법 흡수"
+      },
+      {
+        "type": "thorns",
+        "param": "",
+        "min": "14",
+        "max": "14",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Attacker Takes Damage of",
+        "desc_ko": "공격자가 피해를 받음"
       }
     ]
   },
@@ -9994,14 +10012,18 @@
         "original_idx": 5,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "dmg-norm",
         "param": "",
         "min": "3",
-        "max": "3"
+        "max": "3",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Adds Damage",
+        "desc_ko": "피해 추가"
       },
       {
         "type": "att",
@@ -10140,17 +10162,8 @@
         "max": "15",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Fire Resist",
-        "desc_ko": "화염 저항"
-      },
-      {
-        "type": "charged",
-        "param": "Molten Boulder",
-        "min": "80",
-        "max": "16",
-        "original_idx": 4,
-        "param_en": "Molten Boulder",
-        "param_ko": "타오르는 바위"
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
       },
       {
         "type": "charged",
@@ -10160,6 +10173,15 @@
         "original_idx": 2,
         "param_en": "Clay Golem",
         "param_ko": "점토 골렘"
+      },
+      {
+        "type": "charged",
+        "param": "Molten Boulder",
+        "min": "80",
+        "max": "16",
+        "original_idx": 4,
+        "param_en": "Molten Boulder",
+        "param_ko": "타오르는 바위"
       }
     ]
   },
@@ -10188,8 +10210,8 @@
         "original_idx": 2,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "lifesteal",
@@ -10267,15 +10289,6 @@
     ],
     "options": [
       {
-        "type": "gethit-skill",
-        "param": "Fade",
-        "min": "5",
-        "max": "15",
-        "original_idx": 2,
-        "param_en": "Fade",
-        "param_ko": "흐리기"
-      },
-      {
         "type": "hit-skill",
         "param": "Venom",
         "min": "25",
@@ -10283,6 +10296,15 @@
         "original_idx": 1,
         "param_en": "Venom",
         "param_ko": "맹독"
+      },
+      {
+        "type": "gethit-skill",
+        "param": "Fade",
+        "min": "5",
+        "max": "15",
+        "original_idx": 2,
+        "param_en": "Fade",
+        "param_ko": "흐리기"
       },
       {
         "type": "ass",
@@ -10401,8 +10423,8 @@
         "original_idx": 4,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "dmg-max",
@@ -10411,7 +10433,7 @@
         "max": "9",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "to Maximum Damage",
+        "desc_en": "Maximum Damage",
         "desc_ko": "최대 피해"
       },
       {
@@ -10552,22 +10574,22 @@
       },
       {
         "type": "dmg-pois",
+        "param": "125",
+        "min": "154",
+        "max": "154",
+        "param_en": "125",
+        "param_ko": "125",
+        "desc_en": "to Minimum Poison Damage",
+        "desc_ko": "최소 독 피해"
+      },
+      {
+        "type": "dmg-pois",
         "param": "175",
         "min": "312",
         "max": "312",
         "original_idx": 1,
         "param_en": "175",
         "param_ko": "175",
-        "desc_en": "to Minimum Poison Damage",
-        "desc_ko": "최소 독 피해"
-      },
-      {
-        "type": "dmg-pois",
-        "param": "125",
-        "min": "154",
-        "max": "154",
-        "param_en": "125",
-        "param_ko": "125",
         "desc_en": "to Minimum Poison Damage",
         "desc_ko": "최소 독 피해"
       },
@@ -10604,21 +10626,21 @@
       },
       {
         "type": "charged",
-        "param": "92",
-        "min": "11",
-        "max": "13",
-        "original_idx": 4,
-        "param_en": "Poison Nova",
-        "param_ko": "맹독 확산"
-      },
-      {
-        "type": "charged",
         "param": "83",
         "min": "27",
         "max": "15",
         "original_idx": 3,
         "param_en": "Poison Explosion",
         "param_ko": "맹독 폭발"
+      },
+      {
+        "type": "charged",
+        "param": "92",
+        "min": "11",
+        "max": "13",
+        "original_idx": 4,
+        "param_en": "Poison Nova",
+        "param_ko": "맹독 확산"
       }
     ]
   },
@@ -10712,8 +10734,8 @@
         "original_idx": 5,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "to Strength",
-        "desc_ko": "힘"
+        "desc_en": "All Attributes",
+        "desc_ko": "모든 능력치"
       },
       {
         "type": "mag%",
@@ -10840,12 +10862,13 @@
       },
       {
         "type": "skill",
-        "param": "69",
-        "min": "4",
-        "max": "4",
-        "original_idx": 7,
-        "param_en": "Skeleton Mastery",
-        "param_ko": "해골 숙련"
+        "param": "68",
+        "min": "3",
+        "max": "3",
+        "original_idx": 5,
+        "param_en": "Bone Armor",
+        "param_ko": "뼈 갑옷",
+        "charclass": "nec"
       },
       {
         "type": "skill",
@@ -10854,16 +10877,18 @@
         "max": "2",
         "original_idx": 6,
         "param_en": "Bone Spear",
-        "param_ko": "뼈 창"
+        "param_ko": "뼈 창",
+        "charclass": "nec"
       },
       {
         "type": "skill",
-        "param": "68",
-        "min": "3",
-        "max": "3",
-        "original_idx": 5,
-        "param_en": "Bone Armor",
-        "param_ko": "뼈 갑옷"
+        "param": "69",
+        "min": "4",
+        "max": "4",
+        "original_idx": 7,
+        "param_en": "Skeleton Mastery",
+        "param_ko": "해골 숙련",
+        "charclass": "nec"
       },
       {
         "type": "howl",
@@ -10965,6 +10990,17 @@
         "desc_ko": "타격 회복 속도"
       },
       {
+        "type": "dmg%",
+        "param": "",
+        "min": "120",
+        "max": "160",
+        "original_idx": 1,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
+      },
+      {
         "type": "reduce-ac",
         "param": "",
         "min": "50",
@@ -10974,17 +11010,6 @@
         "param_ko": "",
         "desc_en": "- Target Defense",
         "desc_ko": "대상의 방어력 -"
-      },
-      {
-        "type": "dmg%",
-        "param": "",
-        "min": "120",
-        "max": "160",
-        "original_idx": 1,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
       },
       {
         "type": "att",
@@ -11162,21 +11187,21 @@
     "options": [
       {
         "type": "hit-skill",
-        "param": "Decrepify",
-        "min": "30",
-        "max": "1",
-        "original_idx": 6,
-        "param_en": "Decrepify",
-        "param_ko": "노화"
-      },
-      {
-        "type": "hit-skill",
         "param": "Life Tap",
         "min": "5",
         "max": "10",
         "original_idx": 5,
         "param_en": "Life Tap",
         "param_ko": "생명력 추출"
+      },
+      {
+        "type": "hit-skill",
+        "param": "Decrepify",
+        "min": "30",
+        "max": "1",
+        "original_idx": 6,
+        "param_en": "Decrepify",
+        "param_ko": "노화"
       },
       {
         "type": "dmg-undead",
@@ -11329,8 +11354,8 @@
         "original_idx": 3,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "reduce-ac",
@@ -11466,8 +11491,8 @@
         "original_idx": 4,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Fire Resist",
-        "desc_ko": "화염 저항"
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
       }
     ]
   },
@@ -11497,8 +11522,8 @@
         "min": "5",
         "max": "1",
         "original_idx": 1,
-        "param_en": "Quickness",
-        "param_ko": "Quickness"
+        "param_en": "Burst of Speed",
+        "param_ko": "폭발적인 속도"
       },
       {
         "type": "aura",
@@ -11528,8 +11553,8 @@
         "original_idx": 3,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "att-undead",
@@ -11622,8 +11647,8 @@
         "original_idx": 4,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "att%",
@@ -11636,26 +11661,14 @@
         "desc_ko": "명중률 보너스"
       },
       {
-        "type": "extra-ltng",
+        "type": "lifesteal",
         "param": "",
-        "min": "8",
-        "max": "15",
-        "original_idx": 7,
+        "min": "7",
+        "max": "7",
         "param_en": "",
         "param_ko": "",
-        "desc_en": "to Lightning Skill Damage",
-        "desc_ko": "번개 기술 피해"
-      },
-      {
-        "type": "extra-cold",
-        "param": "",
-        "min": "8",
-        "max": "15",
-        "original_idx": 6,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Cold Skill Damage",
-        "desc_ko": "냉기 기술 피해"
+        "desc_en": "Life stolen per hit",
+        "desc_ko": "적중당 생명력 훔침"
       },
       {
         "type": "extra-fire",
@@ -11669,14 +11682,26 @@
         "desc_ko": "화염 기술 피해"
       },
       {
-        "type": "lifesteal",
+        "type": "extra-cold",
         "param": "",
-        "min": "7",
-        "max": "7",
+        "min": "8",
+        "max": "15",
+        "original_idx": 6,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Life stolen per hit",
-        "desc_ko": "적중당 생명력 훔침"
+        "desc_en": "to Cold Skill Damage",
+        "desc_ko": "냉기 기술 피해"
+      },
+      {
+        "type": "extra-ltng",
+        "param": "",
+        "min": "8",
+        "max": "15",
+        "original_idx": 7,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Lightning Skill Damage",
+        "desc_ko": "번개 기술 피해"
       },
       {
         "type": "noheal",
@@ -11712,21 +11737,21 @@
     "options": [
       {
         "type": "hit-skill",
-        "param": "Mark of the Wolf",
-        "min": "100",
-        "max": "1",
-        "original_idx": 2,
-        "param_en": "Mark of the Wolf",
-        "param_ko": "늑대의 징표"
-      },
-      {
-        "type": "hit-skill",
         "param": "Mark of the Bear",
         "min": "100",
         "max": "1",
         "original_idx": 1,
         "param_en": "Mark of the Bear",
         "param_ko": "곰의 징표"
+      },
+      {
+        "type": "hit-skill",
+        "param": "Mark of the Wolf",
+        "min": "100",
+        "max": "1",
+        "original_idx": 2,
+        "param_en": "Mark of the Wolf",
+        "param_ko": "늑대의 징표"
       },
       {
         "type": "skilltab",
@@ -11787,8 +11812,8 @@
         "original_idx": 5,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Fire Resist",
-        "desc_ko": "화염 저항"
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
       },
       {
         "type": "nofreeze",
@@ -11883,8 +11908,8 @@
         "original_idx": 4,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Lightning Absorb",
-        "desc_ko": "번개 흡수"
+        "desc_en": "Lightning Absorb %",
+        "desc_ko": "번개 흡수(%)"
       }
     ]
   },
@@ -11969,8 +11994,8 @@
         "original_idx": 4,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Fire Absorb",
-        "desc_ko": "화염 흡수"
+        "desc_en": "Fire Absorb %",
+        "desc_ko": "화염 흡수(%)"
       }
     ]
   },
@@ -12055,8 +12080,8 @@
         "original_idx": 4,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Cold Absorb",
-        "desc_ko": "냉기 흡수"
+        "desc_en": "Cold Absorb %",
+        "desc_ko": "냉기 흡수(%)"
       },
       {
         "type": "nofreeze",
@@ -12251,6 +12276,16 @@
         "desc_ko": "생명력 회복"
       },
       {
+        "type": "red-dmg",
+        "param": "",
+        "min": "7",
+        "max": "7",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Damage Reduced by",
+        "desc_ko": "피해 감소"
+      },
+      {
         "type": "red-dmg%",
         "param": "",
         "min": "10",
@@ -12260,16 +12295,6 @@
         "param_ko": "",
         "desc_en": "Physical Damage Received Reduced by",
         "desc_ko": "받는 물리 피해 감소"
-      },
-      {
-        "type": "red-dmg",
-        "param": "",
-        "min": "7",
-        "max": "7",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Damage Reduced by",
-        "desc_ko": "피해 감소"
       }
     ]
   },
@@ -12497,8 +12522,8 @@
         "original_idx": 6,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Fire Resist",
-        "desc_ko": "화염 저항"
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
       }
     ]
   },
@@ -12532,21 +12557,21 @@
         "param_ko": "Sigil Death"
       },
       {
-        "type": "swing1",
+        "type": "swing2",
         "param": "",
         "min": "20",
         "max": "20",
-        "original_idx": 2,
         "param_en": "",
         "param_ko": "",
         "desc_en": "Increased Attack Speed",
         "desc_ko": "공격 속도"
       },
       {
-        "type": "swing2",
+        "type": "swing1",
         "param": "",
         "min": "20",
         "max": "20",
+        "original_idx": 2,
         "param_en": "",
         "param_ko": "",
         "desc_en": "Increased Attack Speed",
@@ -12560,8 +12585,8 @@
         "original_idx": 3,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "att%",

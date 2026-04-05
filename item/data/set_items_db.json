@@ -257,7 +257,7 @@
         "original_idx": 2,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "to Maximum Damage",
+        "desc_en": "Maximum Damage",
         "desc_ko": "최대 피해"
       },
       {
@@ -419,7 +419,7 @@
           "original_idx": 201,
           "param_en": "0",
           "param_ko": "0",
-          "desc_en": "to Maximum Damage",
+          "desc_en": "Maximum Damage",
           "desc_ko": "최대 피해"
         },
         {
@@ -511,7 +511,7 @@
           "original_idx": 201,
           "param_en": "0",
           "param_ko": "0",
-          "desc_en": "to Maximum Damage",
+          "desc_en": "Maximum Damage",
           "desc_ko": "최대 피해"
         },
         {
@@ -603,7 +603,7 @@
           "original_idx": 201,
           "param_en": "0",
           "param_ko": "0",
-          "desc_en": "to Maximum Damage",
+          "desc_en": "Maximum Damage",
           "desc_ko": "최대 피해"
         },
         {
@@ -1087,8 +1087,8 @@
           "original_idx": 201,
           "param_en": "0",
           "param_ko": "0",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         }
       ]
     }
@@ -1236,8 +1236,8 @@
           "original_idx": 201,
           "param_en": "0",
           "param_ko": "0",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         }
       ]
     }
@@ -1385,8 +1385,8 @@
           "original_idx": 201,
           "param_en": "0",
           "param_ko": "0",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         }
       ]
     }
@@ -1417,7 +1417,7 @@
         "original_idx": 2,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "to Minimum Damage",
+        "desc_en": "Minimum Damage",
         "desc_ko": "최소 피해"
       },
       {
@@ -1534,8 +1534,8 @@
           "original_idx": 201,
           "param_en": "0",
           "param_ko": "0",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         }
       ]
     }
@@ -1586,7 +1586,7 @@
         "original_idx": 1,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "to Minimum Damage",
+        "desc_en": "Minimum Damage",
         "desc_ko": "최소 피해"
       }
     ],
@@ -1670,8 +1670,8 @@
           "original_idx": 202,
           "param_en": "0",
           "param_ko": "0",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         }
       ]
     }
@@ -1797,8 +1797,8 @@
           "original_idx": 202,
           "param_en": "0",
           "param_ko": "0",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         }
       ]
     }
@@ -1924,8 +1924,8 @@
           "original_idx": 202,
           "param_en": "0",
           "param_ko": "0",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         }
       ]
     }
@@ -2051,8 +2051,8 @@
           "original_idx": 202,
           "param_en": "0",
           "param_ko": "0",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         }
       ]
     }
@@ -2753,8 +2753,8 @@
         "original_idx": 2,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "light",
@@ -3291,8 +3291,8 @@
           "original_idx": 203,
           "param_en": "0",
           "param_ko": "0",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "red-mag",
@@ -3429,8 +3429,8 @@
           "original_idx": 203,
           "param_en": "0",
           "param_ko": "0",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "red-mag",
@@ -3567,8 +3567,8 @@
           "original_idx": 203,
           "param_en": "0",
           "param_ko": "0",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "red-mag",
@@ -3700,8 +3700,8 @@
           "original_idx": 203,
           "param_en": "0",
           "param_ko": "0",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "red-mag",
@@ -3833,8 +3833,8 @@
           "original_idx": 203,
           "param_en": "0",
           "param_ko": "0",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "red-mag",
@@ -3885,8 +3885,8 @@
         "original_idx": 2,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "att",
@@ -3958,8 +3958,8 @@
           "original_idx": 202,
           "param_en": "0",
           "param_ko": "0",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "gold%",
@@ -4074,8 +4074,8 @@
           "original_idx": 202,
           "param_en": "0",
           "param_ko": "0",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "gold%",
@@ -4190,8 +4190,8 @@
           "original_idx": 202,
           "param_en": "0",
           "param_ko": "0",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "gold%",
@@ -4301,8 +4301,8 @@
           "original_idx": 202,
           "param_en": "0",
           "param_ko": "0",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "gold%",
@@ -4344,8 +4344,8 @@
         "original_idx": 1,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "att",
@@ -4417,8 +4417,8 @@
           "original_idx": 202,
           "param_en": "0",
           "param_ko": "0",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "gold%",
@@ -5222,8 +5222,8 @@
         "original_idx": 1,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Fire Resist",
-        "desc_ko": "화염 저항"
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
       },
       {
         "type": "dmg-to-mana",
@@ -5380,7 +5380,7 @@
         "original_idx": 1,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "to Minimum Damage",
+        "desc_en": "Minimum Damage",
         "desc_ko": "최소 피해"
       },
       {
@@ -5975,7 +5975,7 @@
           "original_idx": 202,
           "param_en": "0",
           "param_ko": "0",
-          "desc_en": "to Minimum Damage",
+          "desc_en": "Minimum Damage",
           "desc_ko": "최소 피해"
         },
         {
@@ -5997,8 +5997,8 @@
           "original_idx": 203,
           "param_en": "0",
           "param_ko": "0",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         }
       ]
     }
@@ -6067,7 +6067,7 @@
           "original_idx": 202,
           "param_en": "0",
           "param_ko": "0",
-          "desc_en": "to Minimum Damage",
+          "desc_en": "Minimum Damage",
           "desc_ko": "최소 피해"
         },
         {
@@ -6089,8 +6089,8 @@
           "original_idx": 203,
           "param_en": "0",
           "param_ko": "0",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         }
       ]
     }
@@ -6130,8 +6130,8 @@
         "original_idx": 1,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "lifesteal",
@@ -6168,7 +6168,7 @@
           "original_idx": 202,
           "param_en": "0",
           "param_ko": "0",
-          "desc_en": "to Minimum Damage",
+          "desc_en": "Minimum Damage",
           "desc_ko": "최소 피해"
         },
         {
@@ -6190,8 +6190,8 @@
           "original_idx": 203,
           "param_en": "0",
           "param_ko": "0",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         }
       ]
     }
@@ -6293,8 +6293,8 @@
           "original_idx": 201,
           "param_en": "0",
           "param_ko": "0",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "half-freeze",
@@ -6409,8 +6409,8 @@
           "original_idx": 201,
           "param_en": "0",
           "param_ko": "0",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "half-freeze",
@@ -6520,8 +6520,8 @@
           "original_idx": 201,
           "param_en": "0",
           "param_ko": "0",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "half-freeze",
@@ -6631,8 +6631,8 @@
           "original_idx": 201,
           "param_en": "0",
           "param_ko": "0",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "half-freeze",
@@ -6694,8 +6694,8 @@
         "original_idx": 2,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "att%",
@@ -6810,8 +6810,8 @@
         "original_idx": 2,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Fire Resist",
-        "desc_ko": "화염 저항"
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
       }
     ],
     "set_bonuses": {
@@ -7669,8 +7669,8 @@
         "original_idx": 4,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Fire Resist",
-        "desc_ko": "화염 저항"
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
       },
       {
         "type": "red-mag",
@@ -7777,8 +7777,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "red-dmg%",
@@ -7862,8 +7862,8 @@
         "original_idx": 2,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "dmg-undead",
@@ -8003,8 +8003,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "red-dmg%",
@@ -8207,8 +8207,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "red-dmg%",
@@ -8413,8 +8413,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "red-dmg%",
@@ -8586,8 +8586,8 @@
           "original_idx": 206,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "dmg%",
-          "desc_ko": "dmg%"
+          "desc_en": "Enhanced Damage",
+          "desc_ko": "피해 증가"
         },
         {
           "type": "manasteal",
@@ -8630,8 +8630,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "state",
@@ -8667,21 +8667,21 @@
     "options": [
       {
         "type": "skilltab",
-        "param": "17",
-        "min": "1",
-        "max": "1",
-        "original_idx": 7,
-        "param_en": "Slow Missiles",
-        "param_ko": "투사체 감속"
-      },
-      {
-        "type": "skilltab",
         "param": "16",
         "min": "1",
         "max": "1",
         "original_idx": 2,
         "param_en": "Exploding Arrow",
         "param_ko": "폭발 화살"
+      },
+      {
+        "type": "skilltab",
+        "param": "17",
+        "min": "1",
+        "max": "1",
+        "original_idx": 7,
+        "param_en": "Slow Missiles",
+        "param_ko": "투사체 감속"
       },
       {
         "type": "ac",
@@ -8799,8 +8799,8 @@
           "original_idx": 206,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "dmg%",
-          "desc_ko": "dmg%"
+          "desc_en": "Enhanced Damage",
+          "desc_ko": "피해 증가"
         },
         {
           "type": "manasteal",
@@ -8843,8 +8843,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "state",
@@ -9035,8 +9035,8 @@
           "original_idx": 206,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "dmg%",
-          "desc_ko": "dmg%"
+          "desc_en": "Enhanced Damage",
+          "desc_ko": "피해 증가"
         },
         {
           "type": "manasteal",
@@ -9079,8 +9079,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "state",
@@ -9252,8 +9252,8 @@
           "original_idx": 206,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "dmg%",
-          "desc_ko": "dmg%"
+          "desc_en": "Enhanced Damage",
+          "desc_ko": "피해 증가"
         },
         {
           "type": "manasteal",
@@ -9296,8 +9296,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "state",
@@ -9480,8 +9480,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "red-mag",
@@ -9651,8 +9651,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "red-mag",
@@ -9826,8 +9826,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "red-mag",
@@ -9999,8 +9999,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "red-mag",
@@ -10174,8 +10174,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "red-mag",
@@ -10259,8 +10259,8 @@
         "original_idx": 6,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "dmg-undead",
@@ -10391,8 +10391,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "red-mag",
@@ -10586,8 +10586,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "state",
@@ -10765,8 +10765,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "state",
@@ -10822,12 +10822,13 @@
       },
       {
         "type": "skill",
-        "param": "Cold Mastery",
+        "param": "Fire Mastery",
         "min": "1",
         "max": "2",
-        "original_idx": 7,
-        "param_en": "Cold Mastery",
-        "param_ko": "냉기 숙련"
+        "original_idx": 5,
+        "param_en": "Fire Mastery",
+        "param_ko": "화염 숙련",
+        "charclass": "sor"
       },
       {
         "type": "skill",
@@ -10836,16 +10837,18 @@
         "max": "2",
         "original_idx": 6,
         "param_en": "Lightning Mastery",
-        "param_ko": "번개 숙련"
+        "param_ko": "번개 숙련",
+        "charclass": "sor"
       },
       {
         "type": "skill",
-        "param": "Fire Mastery",
+        "param": "Cold Mastery",
         "min": "1",
         "max": "2",
-        "original_idx": 5,
-        "param_en": "Fire Mastery",
-        "param_ko": "화염 숙련"
+        "original_idx": 7,
+        "param_en": "Cold Mastery",
+        "param_ko": "냉기 숙련",
+        "charclass": "sor"
       },
       {
         "type": "enr",
@@ -10974,8 +10977,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "state",
@@ -11180,8 +11183,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "state",
@@ -11278,8 +11281,8 @@
         "original_idx": 4,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Fire Resist",
-        "desc_ko": "화염 저항"
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
       }
     ],
     "set_bonuses": {
@@ -11375,8 +11378,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "state",
@@ -11429,8 +11432,8 @@
         "original_idx": 6,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Fire Resist",
-        "desc_ko": "화염 저항"
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
       },
       {
         "type": "abs-cold/lvl",
@@ -11455,17 +11458,6 @@
         "desc_ko": "마법 아이템 발견 확률 증가"
       },
       {
-        "type": "ease",
-        "param": "",
-        "min": "-40",
-        "max": "-40",
-        "original_idx": 4,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Requirements",
-        "desc_ko": "착용 조건"
-      },
-      {
         "type": "sock",
         "param": "",
         "min": "2",
@@ -11475,6 +11467,17 @@
         "param_ko": "",
         "desc_en": "sock",
         "desc_ko": "sock"
+      },
+      {
+        "type": "ease",
+        "param": "",
+        "min": "-40",
+        "max": "-40",
+        "original_idx": 4,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Requirements",
+        "desc_ko": "착용 조건"
       }
     ],
     "set_bonuses": {
@@ -11557,8 +11560,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "state",
@@ -11624,17 +11627,6 @@
         "desc_ko": "힘"
       },
       {
-        "type": "ease",
-        "param": "",
-        "min": "-40",
-        "max": "-40",
-        "original_idx": 5,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Requirements",
-        "desc_ko": "착용 조건"
-      },
-      {
         "type": "sock",
         "param": "",
         "min": "3",
@@ -11644,6 +11636,17 @@
         "param_ko": "",
         "desc_en": "sock",
         "desc_ko": "sock"
+      },
+      {
+        "type": "ease",
+        "param": "",
+        "min": "-40",
+        "max": "-40",
+        "original_idx": 5,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Requirements",
+        "desc_ko": "착용 조건"
       }
     ],
     "set_bonuses": {
@@ -11726,8 +11729,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "state",
@@ -11789,8 +11792,8 @@
         "original_idx": 1,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "dmg-undead",
@@ -11804,17 +11807,6 @@
         "desc_ko": "언데드에게 주는 피해"
       },
       {
-        "type": "sock",
-        "param": "",
-        "min": "3",
-        "max": "4",
-        "original_idx": 5,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "sock",
-        "desc_ko": "sock"
-      },
-      {
         "type": "ease",
         "param": "",
         "min": "-20",
@@ -11824,6 +11816,17 @@
         "param_ko": "",
         "desc_en": "Requirements",
         "desc_ko": "착용 조건"
+      },
+      {
+        "type": "sock",
+        "param": "",
+        "min": "3",
+        "max": "4",
+        "original_idx": 5,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "sock",
+        "desc_ko": "sock"
       }
     ],
     "set_bonuses": {
@@ -11906,8 +11909,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "state",
@@ -11982,8 +11985,8 @@
         "original_idx": 5,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Fire Resist",
-        "desc_ko": "화염 저항"
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
       },
       {
         "type": "sock",
@@ -12077,8 +12080,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "state",
@@ -12308,8 +12311,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "state",
@@ -12548,8 +12551,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "state",
@@ -12799,8 +12802,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "state",
@@ -13017,8 +13020,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "state",
@@ -13270,8 +13273,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "state",
@@ -13419,8 +13422,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "mag%",
@@ -13597,8 +13600,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "mag%",
@@ -13779,8 +13782,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "mag%",
@@ -13939,8 +13942,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "mag%",
@@ -14024,8 +14027,8 @@
         "original_idx": 1,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "att",
@@ -14108,8 +14111,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "mag%",
@@ -14278,8 +14281,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         }
       ]
     }
@@ -14440,8 +14443,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         }
       ]
     }
@@ -14593,8 +14596,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         }
       ]
     }
@@ -14744,8 +14747,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         }
       ]
     }
@@ -14809,8 +14812,8 @@
         "original_idx": 4,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Fire Resist",
-        "desc_ko": "화염 저항"
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
       }
     ],
     "set_bonuses": {
@@ -14897,8 +14900,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         }
       ]
     }
@@ -15041,8 +15044,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "red-dmg%",
@@ -15234,8 +15237,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "red-dmg%",
@@ -15405,8 +15408,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "red-dmg%",
@@ -15585,8 +15588,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "red-dmg%",
@@ -15791,8 +15794,8 @@
           "original_idx": 205,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "mag%",
@@ -15964,8 +15967,8 @@
           "original_idx": 205,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "mag%",
@@ -16148,8 +16151,8 @@
           "original_idx": 205,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "mag%",
@@ -16332,8 +16335,8 @@
           "original_idx": 205,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "mag%",
@@ -16481,8 +16484,8 @@
           "original_idx": 204,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         }
       ]
     }
@@ -16617,8 +16620,8 @@
           "original_idx": 204,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         }
       ]
     }
@@ -16755,8 +16758,8 @@
           "original_idx": 204,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         }
       ]
     }
@@ -16827,8 +16830,8 @@
         "original_idx": 5,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "att",
@@ -16922,8 +16925,8 @@
           "original_idx": 204,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         }
       ]
     }
@@ -16985,8 +16988,8 @@
         "original_idx": 1,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "dmg-demon",
@@ -17100,8 +17103,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "red-dmg%",
@@ -17258,8 +17261,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "red-dmg%",
@@ -17405,8 +17408,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "red-dmg%",
@@ -17468,8 +17471,8 @@
         "original_idx": 4,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "crush",
@@ -17490,8 +17493,8 @@
         "original_idx": 2,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Fire Resist",
-        "desc_ko": "화염 저항"
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
       }
     ],
     "set_bonuses": {
@@ -17633,8 +17636,8 @@
         "original_idx": 5,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "dmg-pois",
@@ -17998,8 +18001,8 @@
         "original_idx": 1,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Fire Resist",
-        "desc_ko": "화염 저항"
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
       }
     ],
     "set_bonuses": {
@@ -18363,8 +18366,8 @@
         "original_idx": 2,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "dmg-ltng",
@@ -18530,8 +18533,8 @@
           "original_idx": 204,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         }
       ]
     }
@@ -18595,8 +18598,8 @@
         "original_idx": 3,
         "param_en": "",
         "param_ko": "",
-        "desc_en": "Fire Resist",
-        "desc_ko": "화염 저항"
+        "desc_en": "All Resistances",
+        "desc_ko": "모든 저항"
       },
       {
         "type": "dmg-to-mana",
@@ -18732,8 +18735,8 @@
           "original_idx": 204,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         }
       ]
     }
@@ -18921,8 +18924,8 @@
           "original_idx": 204,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         }
       ]
     }
@@ -19376,8 +19379,8 @@
         "original_idx": 1,
         "param_en": "2",
         "param_ko": "2",
-        "desc_en": "dmg%",
-        "desc_ko": "dmg%"
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
       },
       {
         "type": "dmg-cold",
@@ -20183,8 +20186,8 @@
           "original_idx": 102,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "dmg%",
-          "desc_ko": "dmg%"
+          "desc_en": "Enhanced Damage",
+          "desc_ko": "피해 증가"
         }
       ],
       "full": [
@@ -20286,8 +20289,8 @@
           "original_idx": 102,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "dmg%",
-          "desc_ko": "dmg%"
+          "desc_en": "Enhanced Damage",
+          "desc_ko": "피해 증가"
         }
       ],
       "full": [
@@ -20389,8 +20392,8 @@
           "original_idx": 102,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "dmg%",
-          "desc_ko": "dmg%"
+          "desc_en": "Enhanced Damage",
+          "desc_ko": "피해 증가"
         }
       ],
       "full": [
@@ -20564,8 +20567,8 @@
           "original_idx": 203,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "dmg%",
-          "desc_ko": "dmg%"
+          "desc_en": "Enhanced Damage",
+          "desc_ko": "피해 증가"
         },
         {
           "type": "oskill",
@@ -20584,8 +20587,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "mag%",
@@ -20755,8 +20758,8 @@
           "original_idx": 203,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "dmg%",
-          "desc_ko": "dmg%"
+          "desc_en": "Enhanced Damage",
+          "desc_ko": "피해 증가"
         },
         {
           "type": "oskill",
@@ -20775,8 +20778,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "mag%",
@@ -20937,8 +20940,8 @@
           "original_idx": 203,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "dmg%",
-          "desc_ko": "dmg%"
+          "desc_en": "Enhanced Damage",
+          "desc_ko": "피해 증가"
         },
         {
           "type": "oskill",
@@ -20957,8 +20960,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "mag%",
@@ -21130,8 +21133,8 @@
           "original_idx": 203,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "dmg%",
-          "desc_ko": "dmg%"
+          "desc_en": "Enhanced Damage",
+          "desc_ko": "피해 증가"
         },
         {
           "type": "oskill",
@@ -21150,8 +21153,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "mag%",
@@ -21310,8 +21313,8 @@
           "original_idx": 203,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "dmg%",
-          "desc_ko": "dmg%"
+          "desc_en": "Enhanced Damage",
+          "desc_ko": "피해 증가"
         },
         {
           "type": "oskill",
@@ -21330,8 +21333,8 @@
           "original_idx": 201,
           "param_en": "",
           "param_ko": "",
-          "desc_en": "Fire Resist",
-          "desc_ko": "화염 저항"
+          "desc_en": "All Resistances",
+          "desc_ko": "모든 저항"
         },
         {
           "type": "mag%",

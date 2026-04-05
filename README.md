@@ -35,7 +35,7 @@
 
 ### 3. 실시간 아이템 사전 검색
 ![아이템 사전 검색 화면](images/item-search_kor.png)
-> 게임 내에서 바로 유니크/룬워드 아이템의 옵션, 재료, 별칭 등을 검색하고 트레더리(Traderie) 시세까지 즉시 확인할 수 있습니다.
+> 게임 내에서 바로 유니크/룬워드 아이템의 옵션, 재료, 별칭 등을 검색하고 트레더리(Traderie) 시세까지 즉시 확인할 수 있습니다. **특히 변동 옵션에 원하는 수치를 입력한 뒤 트레더리 검색 버튼을 누르면, 해당 수치가 그대로 필터에 반영된 정확한 시세 검색 결과를 볼 수 있습니다.**
 
 ---
 
@@ -91,7 +91,7 @@
 **2. 실시간 아이템 사전 검색**
 * **강력하고 유연한 검색 엔진:** 영문/한글 공식 명칭은 물론, 유저들이 자주 쓰는 **별칭**(예: '샤코', '오심')이나 룬워드에 들어가는 **조합 룬**(예: '자 룬', '베르')으로도 정확하게 검색됩니다.
 * **다중 키워드(띄어쓰기) 검색 지원:** 두 개 이상의 단어를 띄어쓰기로 입력하면(예: `엘리트 갑옷`, `자 베르`) 해당 조건이 모두 포함된 아이템만 빠르게 압축하여 찾아주는 강력한 편의성을 제공합니다.
-* **트레더리(Traderie) 연동:** 버튼 한 번으로 선택한 아이템의 트레더리 시세 페이지를 엽니다. (우클릭하여 선호하는 브라우저를 기본으로 고정 가능)
+* **트레더리(Traderie) 완벽 연동:** 버튼 한 번으로 선택한 아이템의 트레더리 시세 페이지를 엽니다. **특히 변동 옵션 수치를 입력란에 적고 검색하면 해당 값이 트레더리 검색 조건으로 자동 적용되어 원하는 시세를 즉시 확인할 수 있습니다.** (버튼을 우클릭하여 선호하는 브라우저를 기본으로 고정 가능)
 * **편의성:** 검색된 세부 옵션을 바로 클립보드에 복사할 수 있으며, 검색창이 포커스를 잃으면 자동으로 반투명해져 게임 플레이를 방해하지 않습니다.
 
 **3. 스피드런 타이머 & 통계**
@@ -205,7 +205,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 
 ### 3. Real-time Item Search Dictionary
 ![Item Search Screen](images/item-search_eng.png)
-> Instantly search for Unique/Runeword items, base materials, aliases, and check their market value on Traderie without tabbing out of the game.
+> Instantly search for Unique/Runeword items, base materials, aliases, and check their market value on Traderie without tabbing out of the game. **You can even input specific values for variable options, and hitting the Traderie search button will instantly apply those values as filters in your search results.**
 
 ---
 
@@ -259,7 +259,7 @@ A **multi-purpose utility overlay (DUO)** designed to comprehensively enhance yo
 **2. In-game Item Search Dictionary**
 * **Powerful & Flexible Search Engine:** Search quickly and accurately by English/Korean names, base items, well-known **aliases** (e.g., 'Shako', 'Enigma'), or even required **runes** (e.g., 'Jah', 'Ber'). 
 * **Multi-word Search Support:** Use spaces to combine multiple keywords (e.g., `Jah Ber`). The search engine will instantly filter and display items containing all the keywords, giving you the ultimate convenience.
-* **Traderie Integration:** Click the button to instantly open the item's market value page in your browser. (Right-click to set your preferred browser like Chrome or Edge as default).
+* **Seamless Traderie Integration:** Click the button to instantly open the item's market value page in your browser. **If you input values for variable options, those exact stats are automatically applied as search filters on Traderie.** (Right-click the button to set your preferred browser like Chrome or Edge as default).
 * **Ultimate Convenience:** Instantly copy item details to your clipboard. The search window automatically becomes semi-transparent when it loses focus so it won't block your game view.
 
 **3. Speedrun Timer & Stats**
