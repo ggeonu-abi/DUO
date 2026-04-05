@@ -130,3 +130,7 @@ oskill	Guided Arrow	prop_1104	유도 화살 (아마존)
 move1		prop_480	달리기/걷기 속도
 cheap		prop_764	상점 물품 가격 하락
 skilltab	10	prop_444	공격 오라 (성기사 전용)
+skill	Redemption		속죄 (성기사 전용)
+skill	Holy Bolt		신성한 빛줄기 (성기사 전용)
+skill	26		속사 (아마존 전용)
+pierce-dmg		prop_1881	적 물리 피해 저항 -

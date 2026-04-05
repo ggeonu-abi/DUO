@@ -34329,8 +34329,8 @@
         "min": "15",
         "max": "21",
         "original_idx": 5,
-        "param_en": "Plague Poppy",
-        "param_ko": "Plague Poppy"
+        "param_en": "Poison Creeper",
+        "param_ko": "맹독 덩굴"
       }
     ]
   },
@@ -36702,8 +36702,8 @@
         "min": "1",
         "max": "1",
         "original_idx": 1,
-        "param_en": "Townportal O Skill",
-        "param_ko": "Townportal O Skill"
+        "param_en": "Town Portal",
+        "param_ko": "마을 차원문"
       },
       {
         "type": "slow",
