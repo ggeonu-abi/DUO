@@ -212,6 +212,10 @@
       {
         "en": "Scepters",
         "ko": "셉터"
+      },
+      {
+        "en": "Hammers",
+        "ko": "해머"
       }
     ],
     "options": [
@@ -350,6 +354,14 @@
       "Nef"
     ],
     "allowed_types": [
+      {
+        "en": "Clubs",
+        "ko": "클럽"
+      },
+      {
+        "en": "Hammers",
+        "ko": "해머"
+      },
       {
         "en": "Maces",
         "ko": "메이스"
@@ -675,18 +687,23 @@
     "name_en": "Brand",
     "name_ko": "낙인",
     "runes_ko": [
-      "랄",
-      "오움",
-      "수르",
-      "에드"
+      "자",
+      "로",
+      "말",
+      "굴"
     ],
     "runes_en": [
-      "Ral",
-      "Ohm",
-      "Sur",
-      "Eth"
+      "Jah",
+      "Lo",
+      "Mal",
+      "Gul"
     ],
-    "allowed_types": [],
+    "allowed_types": [
+      {
+        "en": "Missile Weapons (Bows/Crossbows)",
+        "ko": "원거리 무기(활/크로스보우)"
+      }
+    ],
     "options": [
       {
         "type": "hit-skill",
@@ -1249,8 +1266,8 @@
     ],
     "allowed_types": [
       {
-        "en": "Katar",
-        "ko": "카타르"
+        "en": "Claw",
+        "ko": "클러"
       }
     ],
     "options": [
@@ -1932,6 +1949,10 @@
       {
         "en": "Polearms",
         "ko": "폴암"
+      },
+      {
+        "en": "Hammers",
+        "ko": "해머"
       }
     ],
     "options": [
@@ -2685,16 +2706,21 @@
     "name_en": "Edge",
     "name_ko": "모서리",
     "runes_ko": [
-      "샤엘",
-      "우움",
-      "주울"
+      "티르",
+      "탈",
+      "앰"
     ],
     "runes_en": [
-      "Shael",
-      "Um",
-      "Thul"
+      "Tir",
+      "Tal",
+      "Amn"
     ],
-    "allowed_types": [],
+    "allowed_types": [
+      {
+        "en": "Missile Weapons (Bows/Crossbows)",
+        "ko": "원거리 무기(활/크로스보우)"
+      }
+    ],
     "options": [
       {
         "type": "aura",
@@ -3024,16 +3050,25 @@
     "name_en": "Eternity",
     "name_ko": "영원",
     "runes_ko": [
-      "풀",
-      "랄",
-      "솔"
+      "앰",
+      "베르",
+      "이스트",
+      "솔",
+      "수르"
     ],
     "runes_en": [
-      "Pul",
-      "Ral",
-      "Sol"
+      "Amn",
+      "Ber",
+      "Ist",
+      "Sol",
+      "Sur"
     ],
-    "allowed_types": [],
+    "allowed_types": [
+      {
+        "en": "Melee Weapons",
+        "ko": "근접 무기"
+      }
+    ],
     "options": [
       {
         "type": "indestruct",
@@ -3166,14 +3201,18 @@
     "name_en": "Exile",
     "name_ko": "추방",
     "runes_ko": [
-      "풀",
-      "랄",
-      "솔"
+      "앰",
+      "베르",
+      "이스트",
+      "솔",
+      "수르"
     ],
     "runes_en": [
-      "Pul",
-      "Ral",
-      "Sol"
+      "Amn",
+      "Ber",
+      "Ist",
+      "Sol",
+      "Sur"
     ],
     "allowed_types": [],
     "options": [
@@ -3294,16 +3333,23 @@
     "name_en": "Faith",
     "name_ko": "신념",
     "runes_ko": [
-      "풀",
-      "랄",
-      "솔"
+      "오움",
+      "자",
+      "렘",
+      "엘드"
     ],
     "runes_en": [
-      "Pul",
-      "Ral",
-      "Sol"
+      "Ohm",
+      "Jah",
+      "Lem",
+      "Eld"
     ],
-    "allowed_types": [],
+    "allowed_types": [
+      {
+        "en": "Missile Weapons (Bows/Crossbows)",
+        "ko": "원거리 무기(활/크로스보우)"
+      }
+    ],
     "options": [
       {
         "type": "aura",
@@ -3441,6 +3487,10 @@
       {
         "en": "Axes",
         "ko": "도끼"
+      },
+      {
+        "en": "Hammers",
+        "ko": "해머"
       }
     ],
     "options": [
@@ -3975,22 +4025,25 @@
       }
     ]
   },
-  "Fury (Weapon)": {
-    "name_en": "Fury (Weapon)",
-    "name_ko": "분노 (무기)",
+  "Fury": {
+    "name_en": "Fury",
+    "name_ko": "분노",
     "runes_ko": [
-      "엘",
-      "솔",
-      "돌",
-      "로"
+      "자",
+      "굴",
+      "에드"
     ],
     "runes_en": [
-      "El",
-      "Sol",
-      "Dol",
-      "Lo"
+      "Jah",
+      "Gul",
+      "Eth"
     ],
-    "allowed_types": [],
+    "allowed_types": [
+      {
+        "en": "Melee Weapons",
+        "ko": "근접 무기"
+      }
+    ],
     "options": [
       {
         "type": "swing2",
@@ -4501,18 +4554,23 @@
     "name_en": "Harmony",
     "name_ko": "조화",
     "runes_ko": [
-      "수르",
-      "참",
-      "앰",
-      "로"
+      "티르",
+      "아이드",
+      "솔",
+      "코"
     ],
     "runes_en": [
-      "Sur",
-      "Cham",
-      "Amn",
-      "Lo"
+      "Tir",
+      "Ith",
+      "Sol",
+      "Ko"
     ],
-    "allowed_types": [],
+    "allowed_types": [
+      {
+        "en": "Missile Weapons (Bows/Crossbows)",
+        "ko": "원거리 무기(활/크로스보우)"
+      }
+    ],
     "options": [
       {
         "type": "aura",
@@ -4900,18 +4958,25 @@
     "name_en": "Honor",
     "name_ko": "명예",
     "runes_ko": [
-      "에드",
-      "랄",
-      "오르트",
-      "탈"
+      "앰",
+      "엘",
+      "아이드",
+      "티르",
+      "솔"
     ],
     "runes_en": [
-      "Eth",
-      "Ral",
-      "Ort",
-      "Tal"
+      "Amn",
+      "El",
+      "Ith",
+      "Tir",
+      "Sol"
     ],
-    "allowed_types": [],
+    "allowed_types": [
+      {
+        "en": "Melee Weapons",
+        "ko": "근접 무기"
+      }
+    ],
     "options": [
       {
         "type": "allskills",
@@ -5025,18 +5090,23 @@
     "name_en": "Ice",
     "name_ko": "얼음",
     "runes_ko": [
-      "에드",
-      "랄",
-      "오르트",
-      "탈"
+      "앰",
+      "샤엘",
+      "자",
+      "로"
     ],
     "runes_en": [
-      "Eth",
-      "Ral",
-      "Ort",
-      "Tal"
+      "Amn",
+      "Shael",
+      "Jah",
+      "Lo"
     ],
-    "allowed_types": [],
+    "allowed_types": [
+      {
+        "en": "Missile Weapons (Bows/Crossbows)",
+        "ko": "원거리 무기(활/크로스보우)"
+      }
+    ],
     "options": [
       {
         "type": "hit-skill",
@@ -5303,6 +5373,10 @@
       {
         "en": "Staves",
         "ko": "스태프"
+      },
+      {
+        "en": "Missile Weapons (Bows/Crossbows)",
+        "ko": "원거리 무기(활/크로스보우)"
       }
     ],
     "options": [
@@ -5701,6 +5775,10 @@
         "ko": "검"
       },
       {
+        "en": "Hammers",
+        "ko": "해머"
+      },
+      {
         "en": "Axes",
         "ko": "도끼"
       }
@@ -5824,6 +5902,10 @@
       {
         "en": "Swords",
         "ko": "검"
+      },
+      {
+        "en": "Hammers",
+        "ko": "해머"
       },
       {
         "en": "Scepters",
@@ -6235,14 +6317,21 @@
     "name_en": "Malice",
     "name_ko": "악의",
     "runes_ko": [
-      "오르트",
-      "솔"
+      "아이드",
+      "엘",
+      "에드"
     ],
     "runes_en": [
-      "Ort",
-      "Sol"
+      "Ith",
+      "El",
+      "Eth"
     ],
-    "allowed_types": [],
+    "allowed_types": [
+      {
+        "en": "Melee Weapons",
+        "ko": "근접 무기"
+      }
+    ],
     "options": [
       {
         "type": "dmg%",
@@ -6346,14 +6435,21 @@
     "name_en": "Melody",
     "name_ko": "선율",
     "runes_ko": [
-      "오르트",
-      "솔"
+      "샤엘",
+      "코",
+      "네프"
     ],
     "runes_en": [
-      "Ort",
-      "Sol"
+      "Shael",
+      "Ko",
+      "Nef"
     ],
-    "allowed_types": [],
+    "allowed_types": [
+      {
+        "en": "Missile Weapons (Bows/Crossbows)",
+        "ko": "원거리 무기(활/크로스보우)"
+      }
+    ],
     "options": [
       {
         "type": "skilltab",
@@ -6591,18 +6687,25 @@
     "name_en": "Mist",
     "name_ko": "안개",
     "runes_ko": [
-      "룸",
-      "이오",
-      "솔",
-      "에드"
+      "참",
+      "샤엘",
+      "굴",
+      "주울",
+      "아이드"
     ],
     "runes_en": [
-      "Lum",
-      "Io",
-      "Sol",
-      "Eth"
+      "Cham",
+      "Shael",
+      "Gul",
+      "Thul",
+      "Ith"
     ],
-    "allowed_types": [],
+    "allowed_types": [
+      {
+        "en": "Missile Weapons (Bows/Crossbows)",
+        "ko": "원거리 무기(활/크로스보우)"
+      }
+    ],
     "options": [
       {
         "type": "aura",
@@ -7547,8 +7650,8 @@
     ],
     "allowed_types": [
       {
-        "en": "Katar",
-        "ko": "카타르"
+        "en": "Claw",
+        "ko": "클러"
       }
     ],
     "options": [
@@ -7902,135 +8005,6 @@
       }
     ]
   },
-  "Phoenix (Shield)": {
-    "name_en": "Phoenix (Shield)",
-    "name_ko": "불사조 (방패)",
-    "runes_ko": [
-      "벡스",
-      "벡스",
-      "로",
-      "자"
-    ],
-    "runes_en": [
-      "Vex",
-      "Vex",
-      "Lo",
-      "Jah"
-    ],
-    "allowed_types": [
-      {
-        "en": "Weapons",
-        "ko": "모든 무기"
-      },
-      {
-        "en": "Shields",
-        "ko": "방패"
-      }
-    ],
-    "options": [
-      {
-        "type": "hit-skill",
-        "param": "Firestorm",
-        "min": "40",
-        "max": "22",
-        "original_idx": 3,
-        "param_en": "Firestorm",
-        "param_ko": "화염폭풍"
-      },
-      {
-        "type": "levelup-skill",
-        "param": "Blaze",
-        "min": "100",
-        "max": "40",
-        "original_idx": 4,
-        "param_en": "Blaze",
-        "param_ko": "불길"
-      },
-      {
-        "type": "aura",
-        "param": "Redemption",
-        "min": "10",
-        "max": "15",
-        "original_idx": 6,
-        "param_en": "Redemption",
-        "param_ko": "속죄"
-      },
-      {
-        "type": "dmg%",
-        "param": "",
-        "min": "350",
-        "max": "400",
-        "original_idx": 1,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Enhanced Damage",
-        "desc_ko": "피해 증가"
-      },
-      {
-        "type": "pierce-fire",
-        "param": "",
-        "min": "28",
-        "max": "28",
-        "original_idx": 5,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "- to Enemy Fire Resistance",
-        "desc_ko": "적의 화염 저항 -"
-      },
-      {
-        "type": "ac-miss",
-        "param": "",
-        "min": "350",
-        "max": "400",
-        "original_idx": 2,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Defense vs. Missile",
-        "desc_ko": "원거리 공격 방어력"
-      },
-      {
-        "type": "hp",
-        "param": "",
-        "min": "50",
-        "max": "50",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Life",
-        "desc_ko": "생명력"
-      },
-      {
-        "type": "res-ltng-max",
-        "param": "",
-        "min": "5",
-        "max": "5",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Maximum Lightning Resist",
-        "desc_ko": "최대 번개 저항"
-      },
-      {
-        "type": "res-fire-max",
-        "param": "",
-        "min": "10",
-        "max": "10",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Maximum Fire Resist",
-        "desc_ko": "최대 화염 저항"
-      },
-      {
-        "type": "abs-fire",
-        "param": "",
-        "min": "15",
-        "max": "21",
-        "original_idx": 7,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Fire Absorb",
-        "desc_ko": "화염 흡수"
-      }
-    ]
-  },
   "Phoenix (Weapon)": {
     "name_en": "Phoenix (Weapon)",
     "name_ko": "불사조 (무기)",
@@ -8160,6 +8134,135 @@
       }
     ]
   },
+  "Phoenix (Shield)": {
+    "name_en": "Phoenix (Shield)",
+    "name_ko": "불사조 (방패)",
+    "runes_ko": [
+      "벡스",
+      "벡스",
+      "로",
+      "자"
+    ],
+    "runes_en": [
+      "Vex",
+      "Vex",
+      "Lo",
+      "Jah"
+    ],
+    "allowed_types": [
+      {
+        "en": "Weapons",
+        "ko": "모든 무기"
+      },
+      {
+        "en": "Shields",
+        "ko": "방패"
+      }
+    ],
+    "options": [
+      {
+        "type": "hit-skill",
+        "param": "Firestorm",
+        "min": "40",
+        "max": "22",
+        "original_idx": 3,
+        "param_en": "Firestorm",
+        "param_ko": "화염폭풍"
+      },
+      {
+        "type": "levelup-skill",
+        "param": "Blaze",
+        "min": "100",
+        "max": "40",
+        "original_idx": 4,
+        "param_en": "Blaze",
+        "param_ko": "불길"
+      },
+      {
+        "type": "aura",
+        "param": "Redemption",
+        "min": "10",
+        "max": "15",
+        "original_idx": 6,
+        "param_en": "Redemption",
+        "param_ko": "속죄"
+      },
+      {
+        "type": "dmg%",
+        "param": "",
+        "min": "350",
+        "max": "400",
+        "original_idx": 1,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Enhanced Damage",
+        "desc_ko": "피해 증가"
+      },
+      {
+        "type": "pierce-fire",
+        "param": "",
+        "min": "28",
+        "max": "28",
+        "original_idx": 5,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "- to Enemy Fire Resistance",
+        "desc_ko": "적의 화염 저항 -"
+      },
+      {
+        "type": "ac-miss",
+        "param": "",
+        "min": "350",
+        "max": "400",
+        "original_idx": 2,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Defense vs. Missile",
+        "desc_ko": "원거리 공격 방어력"
+      },
+      {
+        "type": "hp",
+        "param": "",
+        "min": "50",
+        "max": "50",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Life",
+        "desc_ko": "생명력"
+      },
+      {
+        "type": "res-ltng-max",
+        "param": "",
+        "min": "5",
+        "max": "5",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Maximum Lightning Resist",
+        "desc_ko": "최대 번개 저항"
+      },
+      {
+        "type": "res-fire-max",
+        "param": "",
+        "min": "10",
+        "max": "10",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Maximum Fire Resist",
+        "desc_ko": "최대 화염 저항"
+      },
+      {
+        "type": "abs-fire",
+        "param": "",
+        "min": "15",
+        "max": "21",
+        "original_idx": 7,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Fire Absorb",
+        "desc_ko": "화염 흡수"
+      }
+    ]
+  },
   "Plague": {
     "name_en": "Plague",
     "name_ko": "역병",
@@ -8183,8 +8286,8 @@
         "ko": "단검"
       },
       {
-        "en": "Katar",
-        "ko": "카타르"
+        "en": "Claw",
+        "ko": "클러"
       }
     ],
     "options": [
@@ -9454,151 +9557,6 @@
       }
     ]
   },
-  "Spirit (Shield)": {
-    "name_en": "Spirit (Shield)",
-    "name_ko": "영혼 (방패)",
-    "runes_ko": [
-      "탈",
-      "주울",
-      "오르트",
-      "앰"
-    ],
-    "runes_en": [
-      "Tal",
-      "Thul",
-      "Ort",
-      "Amn"
-    ],
-    "allowed_types": [
-      {
-        "en": "Swords",
-        "ko": "검"
-      },
-      {
-        "en": "Shields",
-        "ko": "방패"
-      }
-    ],
-    "options": [
-      {
-        "type": "allskills",
-        "param": "",
-        "min": "2",
-        "max": "2",
-        "original_idx": 7,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "All Skills",
-        "desc_ko": "모든 기술 레벨"
-      },
-      {
-        "type": "cast3",
-        "param": "",
-        "min": "25",
-        "max": "35",
-        "original_idx": 5,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Faster Cast Rate",
-        "desc_ko": "시전 속도"
-      },
-      {
-        "type": "balance3",
-        "param": "",
-        "min": "55",
-        "max": "55",
-        "original_idx": 1,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Faster Hit Recovery",
-        "desc_ko": "타격 회복 속도"
-      },
-      {
-        "type": "ac-miss",
-        "param": "",
-        "min": "250",
-        "max": "250",
-        "original_idx": 3,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Defense vs. Missile",
-        "desc_ko": "원거리 공격 방어력"
-      },
-      {
-        "type": "vit",
-        "param": "",
-        "min": "22",
-        "max": "22",
-        "original_idx": 4,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Vitality",
-        "desc_ko": "활력"
-      },
-      {
-        "type": "mana",
-        "param": "",
-        "min": "89",
-        "max": "112",
-        "original_idx": 2,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "to Mana",
-        "desc_ko": "마나"
-      },
-      {
-        "type": "res-cold",
-        "param": "",
-        "min": "35",
-        "max": "35",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Cold Resist",
-        "desc_ko": "냉기 저항"
-      },
-      {
-        "type": "res-ltng",
-        "param": "",
-        "min": "35",
-        "max": "35",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Lightning Resist",
-        "desc_ko": "번개 저항"
-      },
-      {
-        "type": "res-pois",
-        "param": "",
-        "min": "35",
-        "max": "35",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Poison Resist",
-        "desc_ko": "독 저항"
-      },
-      {
-        "type": "abs-mag",
-        "param": "",
-        "min": "3",
-        "max": "8",
-        "original_idx": 6,
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Magic Absorb",
-        "desc_ko": "마법 흡수"
-      },
-      {
-        "type": "thorns",
-        "param": "",
-        "min": "14",
-        "max": "14",
-        "param_en": "",
-        "param_ko": "",
-        "desc_en": "Attacker Takes Damage of",
-        "desc_ko": "공격자가 피해를 받음"
-      }
-    ]
-  },
   "Spirit (Weapon)": {
     "name_en": "Spirit (Weapon)",
     "name_ko": "영혼 (무기)",
@@ -9741,6 +9699,151 @@
         "param_ko": "",
         "desc_en": "Magic Absorb",
         "desc_ko": "마법 흡수"
+      }
+    ]
+  },
+  "Spirit (Shield)": {
+    "name_en": "Spirit (Shield)",
+    "name_ko": "영혼 (방패)",
+    "runes_ko": [
+      "탈",
+      "주울",
+      "오르트",
+      "앰"
+    ],
+    "runes_en": [
+      "Tal",
+      "Thul",
+      "Ort",
+      "Amn"
+    ],
+    "allowed_types": [
+      {
+        "en": "Swords",
+        "ko": "검"
+      },
+      {
+        "en": "Shields",
+        "ko": "방패"
+      }
+    ],
+    "options": [
+      {
+        "type": "allskills",
+        "param": "",
+        "min": "2",
+        "max": "2",
+        "original_idx": 7,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "All Skills",
+        "desc_ko": "모든 기술 레벨"
+      },
+      {
+        "type": "cast3",
+        "param": "",
+        "min": "25",
+        "max": "35",
+        "original_idx": 5,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Faster Cast Rate",
+        "desc_ko": "시전 속도"
+      },
+      {
+        "type": "balance3",
+        "param": "",
+        "min": "55",
+        "max": "55",
+        "original_idx": 1,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Faster Hit Recovery",
+        "desc_ko": "타격 회복 속도"
+      },
+      {
+        "type": "ac-miss",
+        "param": "",
+        "min": "250",
+        "max": "250",
+        "original_idx": 3,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Defense vs. Missile",
+        "desc_ko": "원거리 공격 방어력"
+      },
+      {
+        "type": "vit",
+        "param": "",
+        "min": "22",
+        "max": "22",
+        "original_idx": 4,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Vitality",
+        "desc_ko": "활력"
+      },
+      {
+        "type": "mana",
+        "param": "",
+        "min": "89",
+        "max": "112",
+        "original_idx": 2,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "to Mana",
+        "desc_ko": "마나"
+      },
+      {
+        "type": "res-cold",
+        "param": "",
+        "min": "35",
+        "max": "35",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Cold Resist",
+        "desc_ko": "냉기 저항"
+      },
+      {
+        "type": "res-ltng",
+        "param": "",
+        "min": "35",
+        "max": "35",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Lightning Resist",
+        "desc_ko": "번개 저항"
+      },
+      {
+        "type": "res-pois",
+        "param": "",
+        "min": "35",
+        "max": "35",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Poison Resist",
+        "desc_ko": "독 저항"
+      },
+      {
+        "type": "abs-mag",
+        "param": "",
+        "min": "3",
+        "max": "8",
+        "original_idx": 6,
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Magic Absorb",
+        "desc_ko": "마법 흡수"
+      },
+      {
+        "type": "thorns",
+        "param": "",
+        "min": "14",
+        "max": "14",
+        "param_en": "",
+        "param_ko": "",
+        "desc_en": "Attacker Takes Damage of",
+        "desc_ko": "공격자가 피해를 받음"
       }
     ]
   },
@@ -10189,18 +10292,19 @@
     "name_en": "Strength",
     "name_ko": "강함",
     "runes_ko": [
-      "샤엘",
-      "우움",
-      "풀",
-      "룸"
+      "앰",
+      "티르"
     ],
     "runes_en": [
-      "Shael",
-      "Um",
-      "Pul",
-      "Lum"
+      "Amn",
+      "Tir"
     ],
-    "allowed_types": [],
+    "allowed_types": [
+      {
+        "en": "Melee Weapons",
+        "ko": "근접 무기"
+      }
+    ],
     "options": [
       {
         "type": "dmg%",
@@ -10938,14 +11042,19 @@
     "name_en": "Wind",
     "name_ko": "바람",
     "runes_ko": [
-      "돌",
-      "이오"
+      "수르",
+      "엘"
     ],
     "runes_en": [
-      "Dol",
-      "Io"
+      "Sur",
+      "El"
     ],
-    "allowed_types": [],
+    "allowed_types": [
+      {
+        "en": "Melee Weapons",
+        "ko": "근접 무기"
+      }
+    ],
     "options": [
       {
         "type": "hit-skill",
@@ -11175,15 +11284,22 @@
     "name_ko": "진노",
     "runes_ko": [
       "풀",
-      "아이드",
-      "엘드"
+      "룸",
+      "베르",
+      "말"
     ],
     "runes_en": [
       "Pul",
-      "Ith",
-      "Eld"
+      "Lum",
+      "Ber",
+      "Mal"
     ],
-    "allowed_types": [],
+    "allowed_types": [
+      {
+        "en": "Missile Weapons (Bows/Crossbows)",
+        "ko": "원거리 무기(활/크로스보우)"
+      }
+    ],
     "options": [
       {
         "type": "hit-skill",
@@ -11304,16 +11420,19 @@
     "name_en": "Zephyr",
     "name_ko": "서풍",
     "runes_ko": [
-      "풀",
-      "아이드",
-      "엘드"
+      "오르트",
+      "에드"
     ],
     "runes_en": [
-      "Pul",
-      "Ith",
-      "Eld"
+      "Ort",
+      "Eth"
     ],
-    "allowed_types": [],
+    "allowed_types": [
+      {
+        "en": "Missile Weapons (Bows/Crossbows)",
+        "ko": "원거리 무기(활/크로스보우)"
+      }
+    ],
     "options": [
       {
         "type": "gethit-skill",
@@ -11603,8 +11722,8 @@
     ],
     "allowed_types": [
       {
-        "en": "Katar",
-        "ko": "카타르"
+        "en": "Claw",
+        "ko": "클러"
       }
     ],
     "options": [
